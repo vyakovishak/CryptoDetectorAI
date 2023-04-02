@@ -1,0 +1,1807 @@
+[
+    {
+        "id": 9212242,
+        "name": "i0coin",
+        "full_name": "sjmackenzie/i0coin",
+        "html_url": "https://github.com/sjmackenzie/i0coin",
+        "description": "Fork of i0coin cryptocurrency, to provide bug fixes",
+        "updated_at": "2020-10-15T07:22:52Z",
+        "language": "C++",
+        "files": [
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/sjmackenzie/i0coin/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/sjmackenzie/i0coin/git/blobs/f3ae54ce0cbce5b36d8fa5f4c11d7eef3d406b8d"
+            },
+            {
+                "name": "COPYING",
+                "path": "COPYING",
+                "url": "https://github.com/sjmackenzie/i0coin/blob/master/COPYING",
+                "last_updated": "https://api.github.com/repos/sjmackenzie/i0coin/git/blobs/1ba9c9f7d0a60da4ee7b949f1cfa0f17fc621303"
+            },
+            {
+                "name": "README",
+                "path": "README",
+                "url": "https://github.com/sjmackenzie/i0coin/blob/master/README",
+                "last_updated": "https://api.github.com/repos/sjmackenzie/i0coin/git/blobs/42061c01a1c70097d1e4579f29a5adf40abdec95"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/sjmackenzie/i0coin/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/sjmackenzie/i0coin/git/blobs/54ab4a4a504e4f9b2e3470f949b2cd1853313126"
+            }
+        ],
+        "readme": "Bitcoin integration/staging tree\n\nDevelopment process\n===================\n\nDevelopers work in their own trees, then submit pull requests when they think their feature or bug fix is ready.\n\nIf it is a simple/trivial/non-controversial change, then one of the bitcoin development team members simply pulls it.\n\nIf it is a more complicated or potentially controversial change, then the patch submitter will be asked to start a discussion (if they haven't already) on the mailing list:  http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-development\nThe patch will be accepted if there is broad consensus that it is a good thing.  Developers should expect to rework and resubmit patches if they don't match the project's coding conventions (see coding.txt) or are controversial.\n\nThe master branch is regularly built and tested, but is not guaranteed to be completely stable. Tags are regularly created to indicate new official, stable release versions of Bitcoin. If you would like to help test the Bitcoin core, please contact QA@Bitcoin.org.\n\nFeature branches are created when there are major new features being worked on by several people."
+    },
+    {
+        "id": 5825333,
+        "name": "bitcoins",
+        "full_name": "kenany/bitcoins",
+        "html_url": "https://github.com/kenany/bitcoins",
+        "description": "[ABANDONED] Python Cryptocurrency for Humans\u2122.",
+        "updated_at": "2023-01-28T17:47:05Z",
+        "language": "Python",
+        "files": [
+            {
+                "name": ".editorconfig",
+                "path": ".editorconfig",
+                "url": "https://github.com/kenany/bitcoins/blob/develop/.editorconfig",
+                "last_updated": "https://api.github.com/repos/kenany/bitcoins/git/blobs/a12b69cad01b3dfc8cb1ecd46fd2415b3c7740d7"
+            },
+            {
+                "name": ".gitattributes",
+                "path": ".gitattributes",
+                "url": "https://github.com/kenany/bitcoins/blob/develop/.gitattributes",
+                "last_updated": "https://api.github.com/repos/kenany/bitcoins/git/blobs/176a458f94e0ea5272ce67c36bf30b6be9caf623"
+            },
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/kenany/bitcoins/blob/develop/.gitignore",
+                "last_updated": "https://api.github.com/repos/kenany/bitcoins/git/blobs/4ce8126682ef0b1102a945df91ee6f4f486c08c2"
+            },
+            {
+                "name": ".travis.yml",
+                "path": ".travis.yml",
+                "url": "https://github.com/kenany/bitcoins/blob/develop/.travis.yml",
+                "last_updated": "https://api.github.com/repos/kenany/bitcoins/git/blobs/aebedce1300cc9de5242c1e58925fa8c3af176f0"
+            },
+            {
+                "name": "LICENSE",
+                "path": "LICENSE",
+                "url": "https://github.com/kenany/bitcoins/blob/develop/LICENSE",
+                "last_updated": "https://api.github.com/repos/kenany/bitcoins/git/blobs/afba5018b8f543d16f44b2aac74fae6c1740e52e"
+            },
+            {
+                "name": "MANIFEST.in",
+                "path": "MANIFEST.in",
+                "url": "https://github.com/kenany/bitcoins/blob/develop/MANIFEST.in",
+                "last_updated": "https://api.github.com/repos/kenany/bitcoins/git/blobs/ad961c3a35978344608722b79c201643c3ffccdc"
+            },
+            {
+                "name": "Makefile",
+                "path": "Makefile",
+                "url": "https://github.com/kenany/bitcoins/blob/develop/Makefile",
+                "last_updated": "https://api.github.com/repos/kenany/bitcoins/git/blobs/f92684b8f4a35a9979b2f73b9d3f900e6f30ad05"
+            },
+            {
+                "name": "README.rst",
+                "path": "README.rst",
+                "url": "https://github.com/kenany/bitcoins/blob/develop/README.rst",
+                "last_updated": "https://api.github.com/repos/kenany/bitcoins/git/blobs/e3a8a0b7f1c19d80b8575604aeb51407c7ac5bf5"
+            },
+            {
+                "name": "requirements.txt",
+                "path": "requirements.txt",
+                "url": "https://github.com/kenany/bitcoins/blob/develop/requirements.txt",
+                "last_updated": "https://api.github.com/repos/kenany/bitcoins/git/blobs/9f580cba1ff79357af2dbaef11cffd994b25311e"
+            },
+            {
+                "name": "setup.py",
+                "path": "setup.py",
+                "url": "https://github.com/kenany/bitcoins/blob/develop/setup.py",
+                "last_updated": "https://api.github.com/repos/kenany/bitcoins/git/blobs/e90e5deb9db5ac91c3a27e85dddf4e80e72abb3d"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 9414352,
+        "name": "mtduck",
+        "full_name": "sleclercq/mtduck",
+        "html_url": "https://github.com/sleclercq/mtduck",
+        "description": "Automate losing money",
+        "updated_at": "2022-06-03T03:50:28Z",
+        "language": "Java",
+        "files": [
+            {
+                "name": ".gitattributes",
+                "path": ".gitattributes",
+                "url": "https://github.com/sleclercq/mtduck/blob/master/.gitattributes",
+                "last_updated": "https://api.github.com/repos/sleclercq/mtduck/git/blobs/412eeda78dc9de1186c2e0e1526764af82ab3431"
+            },
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/sleclercq/mtduck/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/sleclercq/mtduck/git/blobs/e90aa329bfb85bf1e155aac5d4fbb3aaca42087a"
+            },
+            {
+                "name": "Procfile",
+                "path": "Procfile",
+                "url": "https://github.com/sleclercq/mtduck/blob/master/Procfile",
+                "last_updated": "https://api.github.com/repos/sleclercq/mtduck/git/blobs/7f5c8547c8662482266923e50afa3e47b9dc48bd"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/sleclercq/mtduck/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/sleclercq/mtduck/git/blobs/3d3c452224860567484dab0a84cbcd0d2dc38160"
+            },
+            {
+                "name": "launcher.bat",
+                "path": "launcher.bat",
+                "url": "https://github.com/sleclercq/mtduck/blob/master/launcher.bat",
+                "last_updated": "https://api.github.com/repos/sleclercq/mtduck/git/blobs/762048b3cfa1d241a9b269059d18f56e60a10e6c"
+            },
+            {
+                "name": "pom.xml",
+                "path": "pom.xml",
+                "url": "https://github.com/sleclercq/mtduck/blob/master/pom.xml",
+                "last_updated": "https://api.github.com/repos/sleclercq/mtduck/git/blobs/8a63bfbd4f956b83be02d255d9579c63b3b733ec"
+            },
+            {
+                "name": "system.properties",
+                "path": "system.properties",
+                "url": "https://github.com/sleclercq/mtduck/blob/master/system.properties",
+                "last_updated": "https://api.github.com/repos/sleclercq/mtduck/git/blobs/97270b43fdb85b77e797fe0f60fb267ac574faee"
+            }
+        ],
+        "readme": "mtduck\n===========\nSomething that will probably make me broke\n"
+    },
+    {
+        "id": 9450964,
+        "name": "btce-scala",
+        "full_name": "kushti/btce-scala",
+        "html_url": "https://github.com/kushti/btce-scala",
+        "description": "Scala Client for BTC-E Trade and Market Data APIs. BTC-E is the Cryptocurrencies(Bitcoin/Litecoin/Namecoin/...) Exchange",
+        "updated_at": "2023-01-11T05:10:07Z",
+        "language": "Scala",
+        "files": [
+            {
+                "name": "BtceSpec.scala",
+                "path": "BtceSpec.scala",
+                "url": "https://github.com/kushti/btce-scala/blob/master/BtceSpec.scala",
+                "last_updated": "https://api.github.com/repos/kushti/btce-scala/git/blobs/d4f9454110bed7cb194a03c18b53035e7319e209"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/kushti/btce-scala/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/kushti/btce-scala/git/blobs/8dd1fd685d25683a2d15fff84e50e9968c35c3e3"
+            },
+            {
+                "name": "btce-marketdata.scala",
+                "path": "btce-marketdata.scala",
+                "url": "https://github.com/kushti/btce-scala/blob/master/btce-marketdata.scala",
+                "last_updated": "https://api.github.com/repos/kushti/btce-scala/git/blobs/1bd71109b7b59664be8392e8765df33e8d24859e"
+            },
+            {
+                "name": "btce-trade.scala",
+                "path": "btce-trade.scala",
+                "url": "https://github.com/kushti/btce-scala/blob/master/btce-trade.scala",
+                "last_updated": "https://api.github.com/repos/kushti/btce-scala/git/blobs/6f34288e9376aad73eb8da9bb9996a23a72ec131"
+            },
+            {
+                "name": "btce.scala",
+                "path": "btce.scala",
+                "url": "https://github.com/kushti/btce-scala/blob/master/btce.scala",
+                "last_updated": "https://api.github.com/repos/kushti/btce-scala/git/blobs/326e2a1abe58c5aa38291153dc9c494274dee4e2"
+            }
+        ],
+        "readme": "btce-scala\n==========\n\nScala Client for BTC-E Trade and Market Data APIs. BTC-E is the Cryptocurrencies(Bitcoin/Litecoin/Namecoin/...) Broker.\n\n\n\nDependencies\n------------\n\nClient depends on Lift-JSON library (a part of the Lift framework, but could be used separately). Add following SBT dependency:\n\n`\"net.liftweb\" % \"lift-json_2.10\" % \"2.5-M4\"`\n\nor download and put jar to appropriate folder etc.\n\n\nSpecs2 framework used for testing, add following dependency for it :\n\n`\"org.specs2\" %% \"specs2\" % \"1.14\" % \"test\"`\n\n(not needed if you use PlayFramework 2.x)\n\nHow to Use the Client\n---------------------\n\n(more info [in my blog](http://chepurnoy.org/blog/2013/04/scala-clients-for-btc-e-trade-and-public-data-apis-my-first-opensource-released/))\n\nTo set credentials, create own implementation of ClientCredentials trait:\n\n    object MyClientCredentials extends ClientCredentials {\n        val Key = \"my key\"\n        val Secret = \"my secret\"\n    }\n\nBy default, WS library from Play framework is used for HTTP requests. To replace \nit, implement abstract functions *getRequest* (for Market Data API Client), *signedPostRequest* (for Trade API Client), *releaseConnections* (if needed) from HttpApiClient trait\nand make own trade API and market data API implementations as:\n\n`class MyTradeApiClient(credentials: ClientCredentials) extends TradeApiClient(credentials) with MyHttpApiClient`\n\nand\n\n`class MyMarketDataApiClient extends MarketDataApiClient with MyHttpApiClient`\n\n\nMore info [in my blog][]\n\nWeak points\n-----------\n\n* Current version extracts only funds information from *getInfo* method results\n* Only WS HTTP library (from Play framework) supported now. But it's easy to work with an another\n\nDonations\n---------\n\nPlease, support my work:\n\nBTC: 1DLFrNmQboQmZzo9aPKrcrJkLtXKh2hQuU\n\nLTC: LS5D18dfqQVUqSGVsYCinwvTuwUZ9FJ89V\n\n"
+    },
+    {
+        "id": 9715331,
+        "name": "warcoin",
+        "full_name": "d33tah/warcoin",
+        "html_url": "https://github.com/d33tah/warcoin",
+        "description": "My attempts at creating a cryptocurrency-based strategy game.",
+        "updated_at": "2023-01-28T13:36:00Z",
+        "language": "Python",
+        "files": [
+            {
+                "name": "Gra.py",
+                "path": "Gra.py",
+                "url": "https://github.com/d33tah/warcoin/blob/master/Gra.py",
+                "last_updated": "https://api.github.com/repos/d33tah/warcoin/git/blobs/1f98cb68bea17c68043172b95521582b3ddd7122"
+            },
+            {
+                "name": "Gracz.py",
+                "path": "Gracz.py",
+                "url": "https://github.com/d33tah/warcoin/blob/master/Gracz.py",
+                "last_updated": "https://api.github.com/repos/d33tah/warcoin/git/blobs/287b4e482674d549b308d6fef4ede797833b7f51"
+            },
+            {
+                "name": "Jednostka.py",
+                "path": "Jednostka.py",
+                "url": "https://github.com/d33tah/warcoin/blob/master/Jednostka.py",
+                "last_updated": "https://api.github.com/repos/d33tah/warcoin/git/blobs/1c8f8ff3b6b9b90520e04df5b812a0621a8f6bed"
+            },
+            {
+                "name": "Makefile",
+                "path": "Makefile",
+                "url": "https://github.com/d33tah/warcoin/blob/master/Makefile",
+                "last_updated": "https://api.github.com/repos/d33tah/warcoin/git/blobs/22525769771202c94cb4fa6978b8b1815c55e9fc"
+            },
+            {
+                "name": "Okienko.py",
+                "path": "Okienko.py",
+                "url": "https://github.com/d33tah/warcoin/blob/master/Okienko.py",
+                "last_updated": "https://api.github.com/repos/d33tah/warcoin/git/blobs/5b0a413d377f381bfa287a5375570eed7f70a151"
+            },
+            {
+                "name": "Polaczenie.py",
+                "path": "Polaczenie.py",
+                "url": "https://github.com/d33tah/warcoin/blob/master/Polaczenie.py",
+                "last_updated": "https://api.github.com/repos/d33tah/warcoin/git/blobs/0ce8ce0310e0dc7f6f7d010a50eb2fdd79b8a9a7"
+            },
+            {
+                "name": "config.py",
+                "path": "config.py",
+                "url": "https://github.com/d33tah/warcoin/blob/master/config.py",
+                "last_updated": "https://api.github.com/repos/d33tah/warcoin/git/blobs/bd17ef77de0bb2f6eaa926f7d46a2feb264d4b89"
+            },
+            {
+                "name": "enum.py",
+                "path": "enum.py",
+                "url": "https://github.com/d33tah/warcoin/blob/master/enum.py",
+                "last_updated": "https://api.github.com/repos/d33tah/warcoin/git/blobs/63f5026bc53e25d32a070812fc218a5f0c7c22c0"
+            },
+            {
+                "name": "main.py",
+                "path": "main.py",
+                "url": "https://github.com/d33tah/warcoin/blob/master/main.py",
+                "last_updated": "https://api.github.com/repos/d33tah/warcoin/git/blobs/3450f8d305e3ee63d6f4728b2883b7099902e642"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 9868014,
+        "name": "atomcoin-new",
+        "full_name": "zombo/atomcoin-new",
+        "html_url": "https://github.com/zombo/atomcoin-new",
+        "description": "This is a new cryptocurrency fork from NovaCoin",
+        "updated_at": "2013-12-21T04:55:12Z",
+        "language": "C++",
+        "files": [
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/zombo/atomcoin-new/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/zombo/atomcoin-new/git/blobs/620d3dc8a49200fcfae26619eb8a01741fcc41c5"
+            },
+            {
+                "name": "COPYING",
+                "path": "COPYING",
+                "url": "https://github.com/zombo/atomcoin-new/blob/master/COPYING",
+                "last_updated": "https://api.github.com/repos/zombo/atomcoin-new/git/blobs/0269cb66da87158e2195cdf685c352c050600d24"
+            },
+            {
+                "name": "INSTALL",
+                "path": "INSTALL",
+                "url": "https://github.com/zombo/atomcoin-new/blob/master/INSTALL",
+                "last_updated": "https://api.github.com/repos/zombo/atomcoin-new/git/blobs/1a27834e286218ed70febe62bc99bd8ab2587ecf"
+            },
+            {
+                "name": "README",
+                "path": "README",
+                "url": "https://github.com/zombo/atomcoin-new/blob/master/README",
+                "last_updated": "https://api.github.com/repos/zombo/atomcoin-new/git/blobs/42061c01a1c70097d1e4579f29a5adf40abdec95"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/zombo/atomcoin-new/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/zombo/atomcoin-new/git/blobs/e09118b525234bd16c42f976b5ffdaeb8959320d"
+            },
+            {
+                "name": "atomcoin-qt.pro",
+                "path": "atomcoin-qt.pro",
+                "url": "https://github.com/zombo/atomcoin-new/blob/master/atomcoin-qt.pro",
+                "last_updated": "https://api.github.com/repos/zombo/atomcoin-new/git/blobs/10e3e94cce63534e24ed10d82c9c1e5add1061e0"
+            }
+        ],
+        "readme": "\nAtomCoin official development tree\n\nAtomCoin - a hybrid scrypt PoW + PoS based cryptocurrency.\n\n* 10 minute PoW block targets\n* 10 minute PoS block targets\n* The PoW subsidy halves every x64 multiply of difficulty\n* Maximum PoW reward is 100 coins\n* ~ 2 billion total coins\n\nDevelopment process\n===========================\n\nDevelopers work in their own trees, then submit pull requests when\nthey think their feature or bug fix is ready.\n\nThe patch will be accepted if there is broad consensus that it is a\ngood thing.  Developers should expect to rework and resubmit patches\nif they don't match the project's coding conventions (see coding.txt)\nor are controversial.\n\nThe master branch is regularly built and tested, but is not guaranteed\nto be completely stable. Tags are regularly created to indicate new\nofficial, stable release versions of AtomCoin.\n\nFeature branches are created when there are major new features being\nworked on by several people.\n\nFrom time to time a pull request will become outdated. If this occurs, and\nthe pull is no longer automatically mergeable; a comment on the pull will\nbe used to issue a warning of closure. The pull will be closed 15 days\nafter the warning if action is not taken by the author. Pull requests closed\nin this manner will have their corresponding issue labeled 'stagnant'.\n\nIssues with no commits will be given a similar warning, and closed after\n15 days from their last activity. Issues closed in this manner will be \nlabeled 'stale'.\n"
+    },
+    {
+        "id": 9963963,
+        "name": "EUROCoin",
+        "full_name": "EUROCoin/EUROCoin",
+        "html_url": "https://github.com/EUROCoin/EUROCoin",
+        "description": "EUROCoin - Localized Cryptocurrency for Europe",
+        "updated_at": "2013-10-02T03:36:22Z",
+        "language": "TypeScript",
+        "files": [
+            {
+                "name": "COPYING",
+                "path": "COPYING",
+                "url": "https://github.com/EUROCoin/EUROCoin/blob/master/COPYING",
+                "last_updated": "https://api.github.com/repos/EUROCoin/EUROCoin/git/blobs/9b7e641da3af27956b8d65523b4f20d6df4fc5ab"
+            },
+            {
+                "name": "INSTALL",
+                "path": "INSTALL",
+                "url": "https://github.com/EUROCoin/EUROCoin/blob/master/INSTALL",
+                "last_updated": "https://api.github.com/repos/EUROCoin/EUROCoin/git/blobs/63115e2601be94c466b6d2a3d5ecd1bccc600fb8"
+            },
+            {
+                "name": "README",
+                "path": "README",
+                "url": "https://github.com/EUROCoin/EUROCoin/blob/master/README",
+                "last_updated": "https://api.github.com/repos/EUROCoin/EUROCoin/git/blobs/42061c01a1c70097d1e4579f29a5adf40abdec95"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/EUROCoin/EUROCoin/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/EUROCoin/EUROCoin/git/blobs/1db039d7bdd7a334accee1773ea2e01e8f7f78a2"
+            },
+            {
+                "name": "eurocoin-qt.pro",
+                "path": "eurocoin-qt.pro",
+                "url": "https://github.com/EUROCoin/EUROCoin/blob/master/eurocoin-qt.pro",
+                "last_updated": "https://api.github.com/repos/EUROCoin/EUROCoin/git/blobs/e5388adf420be46cb465693ab6fbdacd1e8164cc"
+            }
+        ],
+        "readme": "EUROCoin - Localized Cryptocurrency for Europe.\n\nWhy? Why not. Based on Litecoin/SMC. More info soon!\n"
+    },
+    {
+        "id": 2369216,
+        "name": "bashcoin",
+        "full_name": "dmotz/bashcoin",
+        "html_url": "https://github.com/dmotz/bashcoin",
+        "description": "Bitcoin ticker tape for your terminal  ",
+        "updated_at": "2022-06-03T03:50:31Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/dmotz/bashcoin/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/dmotz/bashcoin/git/blobs/ee206e0cf9a71a738a42aaf6e9ff7c51809c43b4"
+            },
+            {
+                "name": "bashcoin.js",
+                "path": "bashcoin.js",
+                "url": "https://github.com/dmotz/bashcoin/blob/master/bashcoin.js",
+                "last_updated": "https://api.github.com/repos/dmotz/bashcoin/git/blobs/745a512f70d3a6136829bd44d495cda780277272"
+            },
+            {
+                "name": "package.json",
+                "path": "package.json",
+                "url": "https://github.com/dmotz/bashcoin/blob/master/package.json",
+                "last_updated": "https://api.github.com/repos/dmotz/bashcoin/git/blobs/f778c1f678433f6768b843e5bbc0e4d1bfbd51a4"
+            }
+        ],
+        "readme": "# bashcoin\n\nRealtime Bitcoin market stats from the command line.\n\nTrade data from Mt. Gox.\n\nRequires node.js and npm.\n\n### Installation:\n\n```\n$ npm install -g bashcoin\n```\n\n### Default Usage:\n\n```\n$ bashcoin\n\n buy    $5.13\n sell   $5.15\n high   $5.17\n low    $5.10\n\n```\n\n### Options:\n\n```\n  Usage: bashcoin.js [options]\n  \n  Options:\n  \n    -h, --help                output usage information\n    -V, --version             output the version number\n    -c, --cont                run continuously, query every 30 seconds\n    -b, --buy                 output buy\n    -s, --sell                output sell\n    -S, --spread              output spread (rounded)\n    -H, --high                output high\n    -L, --low                 output low\n    -a, --avg                 output average\n    -v, --vol                 output volume\n    -p, --vwap                output volume-weighted average price\n    -l, --last                output last\n    -A, --all                 output all available stats\n    -i, --interval [seconds]  custom interval for continuous output\n\n```\n\nRun bashcoin with `-c` to see a continuous output with delta percentages:\n\n```\n buy    $7.80\n sell   $7.81 +0.11%\n high   $7.90\n low    $7.10 -0.44%\n\n```\n\nTry `bashcoin -Ac` to see all available stats outputted every 30 seconds:\n\n```\n buy    $7.47 +0.36%\n sell   $7.54 -0.71%\n high   $7.90\n low    $7.10\n avg    $7.57\n vol    95,907.27 BTC +0.01%\n vwap   $7.51\n last   $7.54 +1.28%\n spread $0.06 -116.1%\n\n```\n\nYou can define a custom output interval in seconds with `-i`.\n\n"
+    },
+    {
+        "id": 10322551,
+        "name": "doubloons",
+        "full_name": "FuzzyBearBTC/doubloons",
+        "html_url": "https://github.com/FuzzyBearBTC/doubloons",
+        "description": "Cryptocurrency for Pirates!",
+        "updated_at": "2013-12-06T04:23:09Z",
+        "language": "TypeScript",
+        "files": [
+            {
+                "name": "COPYING",
+                "path": "COPYING",
+                "url": "https://github.com/FuzzyBearBTC/doubloons/blob/master/COPYING",
+                "last_updated": "https://api.github.com/repos/FuzzyBearBTC/doubloons/git/blobs/9b7e641da3af27956b8d65523b4f20d6df4fc5ab"
+            },
+            {
+                "name": "INSTALL",
+                "path": "INSTALL",
+                "url": "https://github.com/FuzzyBearBTC/doubloons/blob/master/INSTALL",
+                "last_updated": "https://api.github.com/repos/FuzzyBearBTC/doubloons/git/blobs/63115e2601be94c466b6d2a3d5ecd1bccc600fb8"
+            },
+            {
+                "name": "README",
+                "path": "README",
+                "url": "https://github.com/FuzzyBearBTC/doubloons/blob/master/README",
+                "last_updated": "https://api.github.com/repos/FuzzyBearBTC/doubloons/git/blobs/41553cf51f2d33f29fe131919f03ded76a082da8"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/FuzzyBearBTC/doubloons/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/FuzzyBearBTC/doubloons/git/blobs/f5b97161ac273c2e1ad15418d604358452f1ff16"
+            },
+            {
+                "name": "doubloons-qt.pro",
+                "path": "doubloons-qt.pro",
+                "url": "https://github.com/FuzzyBearBTC/doubloons/blob/master/doubloons-qt.pro",
+                "last_updated": "https://api.github.com/repos/FuzzyBearBTC/doubloons/git/blobs/d082b003086c296b91d25ff0b4418cc23780bc78"
+            }
+        ],
+        "readme": "Avast ye landlubbers! This be DOUBLOONS! A cryptocurrency for the pirates\namong us!\n\n\n ()                    _\n ||-.,.,.,.,,.,.,...-'\" ;                  Pieces of Eight!\n ||     _          _    |          /(o)\\    Pieces of Eight!  \n ||   _( )        ( )_  |         /  ()/ /)\n ||  (_  \\ /\\\\//\\ / ._) |        /.;.))'\".) \n ||    '\\ ( o)(o ) /    |       //////.-'\n ||       \\\\//\\\\//      |   =====))=))===() \n ||        .))((.       |     ///'       \n ||      _/ |||| \\_     |    //  \n ||    ('  /\"\"\"\"\\  ')   |   '           \n ||     \"(_)    (_)\"    |    \n ||-.,.,.,.,.,.,.,.,..-'\n ||   \n ||  PjP\n ||   -\n ||   \n\nThere be 6.77 grams o'gold per Doubloon, or 6.77 coins per block!\nThere be 8 million coins total, no block decreases, diff adjusts \ntwice per day. There be no official versions of this, use it at\nyour own risk, build it from de'source to be safe me hearties!\n\n"
+    },
+    {
+        "id": 10277298,
+        "name": "barcoin",
+        "full_name": "barcoin/barcoin",
+        "html_url": "https://github.com/barcoin/barcoin",
+        "description": "Cryptocurrency that under no circumstances anyone should ever use, ever.  Kthx, die.",
+        "updated_at": "2017-10-29T05:10:22Z",
+        "language": "TypeScript",
+        "files": [
+            {
+                "name": "COPYING",
+                "path": "COPYING",
+                "url": "https://github.com/barcoin/barcoin/blob/master/COPYING",
+                "last_updated": "https://api.github.com/repos/barcoin/barcoin/git/blobs/9b7e641da3af27956b8d65523b4f20d6df4fc5ab"
+            },
+            {
+                "name": "INSTALL",
+                "path": "INSTALL",
+                "url": "https://github.com/barcoin/barcoin/blob/master/INSTALL",
+                "last_updated": "https://api.github.com/repos/barcoin/barcoin/git/blobs/ae26fb488872bb9fe3415d95c75248a1a598394f"
+            },
+            {
+                "name": "Info.plist",
+                "path": "Info.plist",
+                "url": "https://github.com/barcoin/barcoin/blob/master/Info.plist",
+                "last_updated": "https://api.github.com/repos/barcoin/barcoin/git/blobs/06550901bc1494fe7de62a4a0aedf37af362869c"
+            },
+            {
+                "name": "README",
+                "path": "README",
+                "url": "https://github.com/barcoin/barcoin/blob/master/README",
+                "last_updated": "https://api.github.com/repos/barcoin/barcoin/git/blobs/42061c01a1c70097d1e4579f29a5adf40abdec95"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/barcoin/barcoin/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/barcoin/barcoin/git/blobs/fd922e5f961d0487deba3cd226fd2ccc33f804b8"
+            },
+            {
+                "name": "barcoin-qt.pro",
+                "path": "barcoin-qt.pro",
+                "url": "https://github.com/barcoin/barcoin/blob/master/barcoin-qt.pro",
+                "last_updated": "https://api.github.com/repos/barcoin/barcoin/git/blobs/d21770157cc4e676cf5693d6a204d51509fbbfbb"
+            }
+        ],
+        "readme": "FooCoin (FOO)\n\nBlah, blah, blah."
+    },
+    {
+        "id": 7371120,
+        "name": "OT-Contracts",
+        "full_name": "asoltys/OT-Contracts",
+        "html_url": "https://github.com/asoltys/OT-Contracts",
+        "description": "Open Transactions: Server, Smart, and Currency Contracts",
+        "updated_at": "2014-03-01T10:44:51Z",
+        "language": null,
+        "files": [
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/asoltys/OT-Contracts/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/asoltys/OT-Contracts/git/blobs/88e378453c2045d4c4bcb991096b08983d0ef6eb"
+            },
+            {
+                "name": "PUBKEY-StretchWarren.asc",
+                "path": "PUBKEY-StretchWarren.asc",
+                "url": "https://github.com/asoltys/OT-Contracts/blob/master/PUBKEY-StretchWarren.asc",
+                "last_updated": "https://api.github.com/repos/asoltys/OT-Contracts/git/blobs/6f4980174d848c4132c046c03dd492f0a10b6f37"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/asoltys/OT-Contracts/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/asoltys/OT-Contracts/git/blobs/95b64d103b40cecd786015e48b00356a44b3e365"
+            }
+        ],
+        "readme": "Open Transactions: Server, Smart, and Currency Contracts\n=============================================\n\nThe goal is to create a variety of server and currency contracts, along with several different kinds of smart contracts. These contracts can then be used to trade, for example: digital gold grams, digital silver grams, and \n\"digital\" bitcoin, as well as other valuable currencies and commodities across many different servers\u2014complimented by smart contracts. The vision is for these servers to be low-trust and federated: securing, transferring, and releasing currencies with zero risk.\n\nSee: https://github.com/FellowTraveler/Open-Transactions\n\n###What's been done, and what I'm working on\n\nI currently have two basic currency contracts: <a href=\"https://github.com/stretch/OT-Contracts/blob/master/currency-contracts/digigold.xml\">Digital Gold Grams</a>, and <a href=\"https://github.com/stretch/OT-Contracts/blob/master/currency-contracts/digisilver.xml\">Digital Silver Grams</a>; I would like to develop these currency \ncontracts\u2014as well as all of this project's future contracts\u2014into proper technical and legal documents \nthat can be used on for-profit servers.\n\n###Completed and working on:\n* Completed: basic <a href=\"https://github.com/stretch/OT-Contracts/blob/master/currency-contracts/digisilver.xml\">Digital Silver Grams</a> currency contract\n* Completed: basic <a href=\"https://github.com/stretch/OT-Contracts/blob/master/currency-contracts/digigold.xml\">Digital Gold Grams</a> currency contract\n* Working on: hosting basic public server\n* Working on: publishing basic public server contract\n\n###How to use sample data\n\nCopy the contents of the /sample-data directory into your ~/.ot directory and then launch Open Transactions.\n\n###Smart Contracts\n\nThe first smart contract I would like to work on would be used to exchange bitcoins for \"digital\" bitcoins, or \"digiBTC\". The smart contract could be used on a webpage, server, or within a mobile app to record the client's \nwallet address and requested amount of digiBTC, the smart contract would then monitor and await a single blockchain \nconfirmation (or however many confirmations are set in the contract) of the transfer; once confirmed the smart contract \nwould tell the server to issue the digiBTC to the client. The whole operation would be reversed to exchange digiBTC for \nbitcoin.\n\n###How to create a currency contract\n\nCreating a currency contract is simple: first, create or open a sample .xml file, then state your conditions and \nattach your nym's public key (find this by using the \"exportcert\" command in the opentxs CLI, or in the\n~/.ot/client_data/certs/ directory) in the < key name=\"contract\" > area like this:\n\n    <!-- KEYS -->\n\n    <key name=\"contract\">\n    - -----BEGIN CERTIFICATE-----\n    MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW\n    MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMjEyMjgwMDA5MTBaFw0yMjEyMjYw\n    MDA5MTBaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf\n    MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPn/MBn7lt2ZUn160qUPmvPk67yFbz\n    iXzZpGmePJCZsounat6XsNl0wJaSvnWiqvTvAIPbIMrkIlUWKpIRKbiFeVwSTPay\n    4TA8oSXQkv80lF+X0fsncmv5zkpoa9dntdSm1gTuTAYG/+iZ/VJVXmTrS9OxYucr\n    SUTu2A1XldDi7wIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE\n    AwIBBjAdBgNVHQ4EFgQU54XD2rYY2Kgg9aKsojyxVshIIbowEQYJYIZIAYb4QgEB\n    BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u\n    MA0GCSqGSIb3DQEBBAUAA4GBAEZ6lyRvqU9VWzKEDtXodbnP+23vw28NmXxC58b3\n    KtRI5AkpMjBEnszLI7fS3GhNF2jFExOLhFtVWA2yfyrwSIxpi8ll3jv9v74qE1LH\n    EoSuGSXTQsZ9WGC+hE47I0jkRu6JWpcQIPI2JS+/o8GGLrSqGTGX1LqrZVpNecRr\n    QcuY\n    - -----END CERTIFICATE----\n    </key>\n    </digitalAssetContract>\n\nIt is crucial that you begin and end the certificate with \"- -----\", making sure that there is a space after the \nfirst dash.\n\nOnce you've entered the contract's conditions and attached your nym's public key you can run it through the opentxs \ncommand line.\n\n  \t$ opentxs\n\t$ newasset\n\n<img align=\"center\" src=\"http://i47.tinypic.com/f2u2w1.png\" alt=\"newasset\" />\n\nIt will ask you to \"Please enter the XML contents for the contract, followed by an EOF or a ~ by itself on a blank \nline:\", once you've done that it will return the signed and completed contract and all you need to do is save the \ntext to a text file with the .otc extension.\n\nIt should now look like this:\n\n    -----BEGIN SIGNED CONTRACT-----\n    Hash: SAMY\n\n    <?xml version=\"1.0\"?>\n    <digitalAssetContract version=\"1.0\">\n\n    <entity shortname=\"DigiGold\"\n    longname=\"Digital Gold Grams\" \n    email=\"stretchwarren@gmail.com\"/>\n\n    <issue company=\"Stretch's Precious Metals\"\n    email=\"stretchwarren@gmail.com\"\n    contractUrl=\"coming soon...\"\n    type=\"currency\"/>\n\n    <currency name=\"Gold Grams\" tla=\"dGOLD\" symbol=\"dGOLD\"\n    type=\"decimal\" factor=\"1\" decimal_power=\"0\" fraction=\"\"/>\n\n    <!-- CONDITIONS -->\n\n    <condition name=\"backing\">\n    Digital Gold Grams are payable to bearer in physical gold grams, at any exchange provider \n    supporting our contract in any denomination\n    they support, or through one of our direct agents in 1 oz bars.\n    </condition>\n\n    <condition name=\"audit\">\n    Gold Grams are audited monthly by highly trusted people.\n    </condition>\n\n    <condition name=\"purchase\">\n    In order to obtain Digital Gold Grams you must recieve them in trade, or purchase them, in person, from me.\n    </condition>\n\n    <condition name=\"redemption\">\n    Digital Gold Grams can be redeemed for real gold, or gold's current exchange \n    value, as determined by the exchange rate of http://www.vbce.ca/ at the time of redemption.\n    </condition>\n\n    <condition name=\"rate\">\n    Issuance and redemption will be performed at no charge.\n    </condition>\n\n    <condition name=\"buyback\">\n    The Issuer reserves the right to buy back all outstanding\n    currency, thereby terminating the use of this instrument.\n    </condition>\n\n    <condition name=\"liability\">\n    None, purchase and trade Digital Gold Grams at your own risk.\n    </condition>\n\n    <condition name=\"mint\">\n    Float - the total quantity of gold is determined by the Law of Identity.\n    The quantity of gold that enters the market yearly is strictly\n    regulated by the Law of Causality and cannot accurately be predicted.\n    \n    Any server operator using this contract will not issue any more\n    Digital Gold Grams than he actually has in physical gold.\n    </condition>\n\n    <condition name=\"privacy\">\n    The purchase and trading of Digital Gold Grams are preformed\n    on the basis of strong privacy.\n    </condition>\n\n    <!-- KEYS -->\n\n    <key name=\"contract\">\n    - -----BEGIN CERTIFICATE-----\n    MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW\n    MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMjEyMjgwMDA5MTBaFw0yMjEyMjYw\n    MDA5MTBaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf\n    MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPn/MBn7lt2ZUn160qUPmvPk67yFbz\n    iXzZpGmePJCZsounat6XsNl0wJaSvnWiqvTvAIPbIMrkIlUWKpIRKbiFeVwSTPay\n    4TA8oSXQkv80lF+X0fsncmv5zkpoa9dntdSm1gTuTAYG/+iZ/VJVXmTrS9OxYucr\n    SUTu2A1XldDi7wIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE\n    AwIBBjAdBgNVHQ4EFgQU54XD2rYY2Kgg9aKsojyxVshIIbowEQYJYIZIAYb4QgEB\n    BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u\n    MA0GCSqGSIb3DQEBBAUAA4GBAEZ6lyRvqU9VWzKEDtXodbnP+23vw28NmXxC58b3\n    KtRI5AkpMjBEnszLI7fS3GhNF2jFExOLhFtVWA2yfyrwSIxpi8ll3jv9v74qE1LH\n    EoSuGSXTQsZ9WGC+hE47I0jkRu6JWpcQIPI2JS+/o8GGLrSqGTGX1LqrZVpNecRr\n    QcuY\n    - -----END CERTIFICATE----\n    </key>\n\n    </digitalAssetContract>\n    -----BEGIN CONTRACT SIGNATURE-----\n    Version: Open Transactions 0.87.h\n    Comment: http://github.com/FellowTraveler/Open-Transactions/wiki\n\n    CoABl31EZExc03iLp14yAWBJdrqb6O55DCIytvEsAQxgTSMKIe6u30NM/zr3K16J\n    DnD/CkOpy+0Csx08NURWAHnCuw+VeqW9x691gxGxKQnajJQ1Ntpq08nyX1yM3+CV\n    yII1584ZnCf/mf22GEk7OTxRLqI1oWue/LVbBOPtgTLGGfA=\n    -----END CONTRACT SIGNATURE-----\"\n    \n###Screenshots\n\n<br>\n<img align=\"center\" src=\"http://i49.tinypic.com/161fiq9.png\" alt=\"Moneychanger\" />\n<br>\n<br>\n<img align=\"center\" src=\"http://i49.tinypic.com/14vmoee.png\" alt=\"Moneychanger\" />\n\n\n"
+    },
+    {
+        "id": 16633877,
+        "name": "smartcontracts",
+        "full_name": "smartcontracts-zz/smartcontracts",
+        "html_url": "https://github.com/smartcontracts-zz/smartcontracts",
+        "description": "Smart Contracts, DAOS and Multibitfunding",
+        "updated_at": "2014-02-08T02:25:59Z",
+        "language": null,
+        "files": [
+            {
+                "name": "README.txt",
+                "path": "README.txt",
+                "url": "https://github.com/smartcontracts-zz/smartcontracts/blob/master/README.txt",
+                "last_updated": "https://api.github.com/repos/smartcontracts-zz/smartcontracts/git/blobs/03d07b48dcba95894697ebec9c5a877fa21853c7"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 21435595,
+        "name": "cryptolaw-blog-posts",
+        "full_name": "gitlegal/cryptolaw-blog-posts",
+        "html_url": "https://github.com/gitlegal/cryptolaw-blog-posts",
+        "description": "Some of musings on the future of smart contracts and cryptocurrency",
+        "updated_at": "2020-02-13T15:52:47Z",
+        "language": null,
+        "files": [
+            {
+                "name": "MyersBriggs-Crypto.md",
+                "path": "MyersBriggs-Crypto.md",
+                "url": "https://github.com/gitlegal/cryptolaw-blog-posts/blob/master/MyersBriggs-Crypto.md",
+                "last_updated": "https://api.github.com/repos/gitlegal/cryptolaw-blog-posts/git/blobs/2f553152125ba48e4d1d603804b9855b05d831ae"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/gitlegal/cryptolaw-blog-posts/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/gitlegal/cryptolaw-blog-posts/git/blobs/f31574f583ba30541390bf6db13d5b4bb553f2f3"
+            },
+            {
+                "name": "arbitration.md",
+                "path": "arbitration.md",
+                "url": "https://github.com/gitlegal/cryptolaw-blog-posts/blob/master/arbitration.md",
+                "last_updated": "https://api.github.com/repos/gitlegal/cryptolaw-blog-posts/git/blobs/cbf3d4813a0b789ac5420f8038803ef219ee5207"
+            },
+            {
+                "name": "cryptominers-trust.md",
+                "path": "cryptominers-trust.md",
+                "url": "https://github.com/gitlegal/cryptolaw-blog-posts/blob/master/cryptominers-trust.md",
+                "last_updated": "https://api.github.com/repos/gitlegal/cryptolaw-blog-posts/git/blobs/6aef69d7edb31baee86175f9ad6dd544a8c9202c"
+            },
+            {
+                "name": "legal challenge to smart contracts.md",
+                "path": "legal challenge to smart contracts.md",
+                "url": "https://github.com/gitlegal/cryptolaw-blog-posts/blob/master/legal%20challenge%20to%20smart%20contracts.md",
+                "last_updated": "https://api.github.com/repos/gitlegal/cryptolaw-blog-posts/git/blobs/31e5d404095651801d370dbe4206e9a75da764c0"
+            },
+            {
+                "name": "no such thing as a bitcoin expert.md",
+                "path": "no such thing as a bitcoin expert.md",
+                "url": "https://github.com/gitlegal/cryptolaw-blog-posts/blob/master/no%20such%20thing%20as%20a%20bitcoin%20expert.md",
+                "last_updated": "https://api.github.com/repos/gitlegal/cryptolaw-blog-posts/git/blobs/99ef47a1a592ebc80a4d26b32fa123cb530602f4"
+            }
+        ],
+        "readme": "cryptolaw-blog-posts\n====================\n\nSome of musings on the future of smart contracts and cryptocurrency\n\nJoe Peck -\nLegal Eagle -\nBlockchain Technology Group -\nwww.blocktech.com -\njoe@blocktech.com\n\n"
+    },
+    {
+        "id": 22032693,
+        "name": "client",
+        "full_name": "83tb/client",
+        "html_url": "https://github.com/83tb/client",
+        "description": "Smart Contract Console (in development)",
+        "updated_at": "2014-07-20T20:13:37Z",
+        "language": "Shell",
+        "files": [
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/83tb/client/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/83tb/client/git/blobs/eddf617fdefbd983edd37eb9095e546f89587b2a"
+            },
+            {
+                "name": "Dockerfile",
+                "path": "Dockerfile",
+                "url": "https://github.com/83tb/client/blob/master/Dockerfile",
+                "last_updated": "https://api.github.com/repos/83tb/client/git/blobs/ac294df0792c42a4f3b0523186d71135886693dd"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/83tb/client/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/83tb/client/git/blobs/fe366b7ea7aaa8bb8f2c5a794e9d4c6bd28cc240"
+            },
+            {
+                "name": "containers.yaml",
+                "path": "containers.yaml",
+                "url": "https://github.com/83tb/client/blob/master/containers.yaml",
+                "last_updated": "https://api.github.com/repos/83tb/client/git/blobs/97165ce59c74cf0bcfe06560caa92dcdfcfd2ae3"
+            },
+            {
+                "name": "docker_install.sh",
+                "path": "docker_install.sh",
+                "url": "https://github.com/83tb/client/blob/master/docker_install.sh",
+                "last_updated": "https://api.github.com/repos/83tb/client/git/blobs/7548d778ea8eb348fc1705b5493fa5e3ee8fd684"
+            },
+            {
+                "name": "initial_bitcoind_run.sh",
+                "path": "initial_bitcoind_run.sh",
+                "url": "https://github.com/83tb/client/blob/master/initial_bitcoind_run.sh",
+                "last_updated": "https://api.github.com/repos/83tb/client/git/blobs/7512649b6ed9084fd0a38135d6e37a60e738034c"
+            },
+            {
+                "name": "initial_client_run.sh",
+                "path": "initial_client_run.sh",
+                "url": "https://github.com/83tb/client/blob/master/initial_client_run.sh",
+                "last_updated": "https://api.github.com/repos/83tb/client/git/blobs/a5ade767b9ccda17efa0b54b75385169f051a59b"
+            },
+            {
+                "name": "supervisord.conf",
+                "path": "supervisord.conf",
+                "url": "https://github.com/83tb/client/blob/master/supervisord.conf",
+                "last_updated": "https://api.github.com/repos/83tb/client/git/blobs/34b5f2424588acea32617fe0f540fa13e79cdd17"
+            }
+        ],
+        "readme": "# Dockerized Orisi Client\n\nSmart contracts allows you to transform deals, laws, business logic or any other rules into code. \nOrisi is a platform that does smart contracts.\noracle project is a Docker/Container implementation of Orisi nodes.\n\n\nMore here -> https://github.com/orisi/wiki/wiki/Orisi-White-Paper\n\n## Quick install\n\n- If you have docker installed - running Orisi Oracle node is as easy as typing\n\n\n```\ndocker pull orisi/client\n```\n\n```\ndocker run orisi/client > /dev/null &\n\n```\n\nNow you can ```docker inspect``` your container and login inside using ssh. \n\n\nThat's all!\n\n\n#### - If you don't have docker installed I prepared for you [super short Docker installation procedures](manual/docker_install.md), Linux, MacosX and Windows\n\n### [Docker usage cheatsheet](manual/docker_basics.md)\n\n## Building Orisi Docker Client Image from source\n\nIf you want to have everything installed from scratch you can just download the Dockerfile from the source:\n```\ngit clone https://github.com/orisi/client.git\ncd client\ndocker build -t client .\n```\n\n>Whole process should take around 20 minutes. Your mileage may vary.\n\n\n"
+    },
+    {
+        "id": 23396341,
+        "name": "Smart-Contract",
+        "full_name": "Bio-Commons/Smart-Contract",
+        "html_url": "https://github.com/Bio-Commons/Smart-Contract",
+        "description": null,
+        "updated_at": "2015-05-27T19:07:49Z",
+        "language": null,
+        "files": [
+            {
+                "name": "LICENSE",
+                "path": "LICENSE",
+                "url": "https://github.com/Bio-Commons/Smart-Contract/blob/master/LICENSE",
+                "last_updated": "https://api.github.com/repos/Bio-Commons/Smart-Contract/git/blobs/7f3cac4e3592c3c402678374feddff13c7efbe04"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 23494530,
+        "name": "DNA-analysis---ethereum---Dapp",
+        "full_name": "CytoComp/DNA-analysis---ethereum---Dapp",
+        "html_url": "https://github.com/CytoComp/DNA-analysis---ethereum---Dapp",
+        "description": "ADS: Ethereum  Dapp for secure sharing and analysis of your personal DNA data both for self trackers and people with diseases with underlying genetic alterations. Keywords: Secure multi-party computation, genome analysis, secure DNA data sharing, smart contract, Daap, Ethereum. You are welcome to join!",
+        "updated_at": "2019-03-01T03:53:48Z",
+        "language": null,
+        "files": [
+            {
+                "name": "LICENSE",
+                "path": "LICENSE",
+                "url": "https://github.com/CytoComp/DNA-analysis---ethereum---Dapp/blob/master/LICENSE",
+                "last_updated": "https://api.github.com/repos/CytoComp/DNA-analysis---ethereum---Dapp/git/blobs/ef7e7efc09c9d471c391f05b9567966928085840"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/CytoComp/DNA-analysis---ethereum---Dapp/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/CytoComp/DNA-analysis---ethereum---Dapp/git/blobs/0e86c6cf241cbcad4744e188ff873d671f78ee6d"
+            }
+        ],
+        "readme": "DNA-analysis---ethereum---Dapp\n==============================\n"
+    },
+    {
+        "id": 23500488,
+        "name": "iPhone----Apple-Watch---ethereum",
+        "full_name": "iEthereum/iPhone----Apple-Watch---ethereum",
+        "html_url": "https://github.com/iEthereum/iPhone----Apple-Watch---ethereum",
+        "description": "ADS: An easy to use Ethereum (smart contracts wo a 3rd party)  iPhone and Apple Watch implementation for the general public. You are welcome to join! BTC support  16jDBabyKHD1ZWFVMQaQzKeqjY1rQsCHPp      Thanks so much!",
+        "updated_at": "2017-12-01T14:50:57Z",
+        "language": null,
+        "files": [
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/iEthereum/iPhone----Apple-Watch---ethereum/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/iEthereum/iPhone----Apple-Watch---ethereum/git/blobs/d522f94191aa772404f9b4eb7bf2dc70055d053e"
+            },
+            {
+                "name": "LICENSE",
+                "path": "LICENSE",
+                "url": "https://github.com/iEthereum/iPhone----Apple-Watch---ethereum/blob/master/LICENSE",
+                "last_updated": "https://api.github.com/repos/iEthereum/iPhone----Apple-Watch---ethereum/git/blobs/ef7e7efc09c9d471c391f05b9567966928085840"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/iEthereum/iPhone----Apple-Watch---ethereum/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/iEthereum/iPhone----Apple-Watch---ethereum/git/blobs/7829cec07dfd7fd9f14dbed5cb95881239dfa8cb"
+            }
+        ],
+        "readme": "iPhone---iWatch---ethereum\n==========================\n\nADS: An easy to use Ethereum  iPhone and iWatch implementation for the general public. You are welcome to join!\n"
+    },
+    {
+        "id": 25060072,
+        "name": "cointract",
+        "full_name": "domsteil/cointract",
+        "html_url": "https://github.com/domsteil/cointract",
+        "description": "Smart Contract management software for virtual currency producing assets",
+        "updated_at": "2014-10-11T02:12:43Z",
+        "language": null,
+        "files": null,
+        "readme": null
+    },
+    {
+        "id": 25442180,
+        "name": "CashPhoner",
+        "full_name": "InventorOA/CashPhoner",
+        "html_url": "https://github.com/InventorOA/CashPhoner",
+        "description": "Open source remittance app to send and receive cash globally, trade globally and participate in local p2p currency exchange.  CashPhoner is an intuitive mobile app, sms protocol and web app based on phone numbers, enabling global transfer of value, global ecommerce and local currency exchange using PhoneChain servers, decentralized storage and smart contracts  which are all secured and backed by blockchain technology; including smart contracts and the tokens native to the blockchains. Nxt, Bitcoin and Ethereum are the initial blockchain platforms supported.",
+        "updated_at": "2023-03-10T11:53:37Z",
+        "language": null,
+        "files": [
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/InventorOA/CashPhoner/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/InventorOA/CashPhoner/git/blobs/04f044fdc1f3da2199aa72c0942a3a6a6614b20a"
+            }
+        ],
+        "readme": "CashPhoner\n==========\nOpen source remittance app to send and receive cash globally, trade globally and participate in local p2p currency exchange. \n\n\nCashPhoner is an intuitive mobile app, sms protocol and web app based on phone numbers, enabling global transfer of value, global ecommerce and local currency exchange using PhoneChain servers, decentralized storage and smart contracts  which are secured and backed by blockchain technology; including smart contracts and the tokens that exist on the blockchains. Nxt, Bitcoin and Ethereum are the initial blockchain platforms supported.\n \nhttp://www.cashphoner.org\n\n\nPrimary Technologies\n==========\n-Proprietary software from http://www.hash65.io/\n\n-PhoneChain      https://github.com/ola-aj/PhoneChain\n\n-PhoneChain Servers\n\n-Smart contracts\n\n-Decentralized storage\n\n-Webrtc and Websockets\n\n"
+    },
+    {
+        "id": 25720260,
+        "name": "Smart-contract",
+        "full_name": "aldawood/Smart-contract",
+        "html_url": "https://github.com/aldawood/Smart-contract",
+        "description": null,
+        "updated_at": "2014-10-25T04:44:04Z",
+        "language": null,
+        "files": [
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/aldawood/Smart-contract/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/aldawood/Smart-contract/git/blobs/06c1ffa7655a4349b42a88437babec917adcaeeb"
+            }
+        ],
+        "readme": "Smart-contract\n==============\nThe self-governing contractual system is a system that allows contracts to be\nmanaged by private institutions in a competitive market. I call it a self-governing\nsystem because, as opposed to the legal contractual system, all outcomes of the\ncontract must be pre-determined by the contracting parties themselves at the time of\nestablishing the contract.\n\nIn the self-governing contractual system, a contract is defined as \"an agreement between\ntwo or more persons that details transfers of properties in di\u000berent future possibilities.\" So, a contract is a deterministic function that maps different future possibilities to an operation of property transfer between contracting parties. This function can be represented as a table I call the contract table.\n\n\n"
+    },
+    {
+        "id": 843400,
+        "name": "inline-comment-test",
+        "full_name": "mtcmorris/inline-comment-test",
+        "html_url": "https://github.com/mtcmorris/inline-comment-test",
+        "description": "Proof of concept on how an inline commenting system could work. Very raw",
+        "updated_at": "2019-08-13T14:35:52Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/mtcmorris/inline-comment-test/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/mtcmorris/inline-comment-test/git/blobs/496ee2ca6a2f08396a4076fe43dedf3dc0da8b6d"
+            },
+            {
+                "name": "index.html",
+                "path": "index.html",
+                "url": "https://github.com/mtcmorris/inline-comment-test/blob/master/index.html",
+                "last_updated": "https://api.github.com/repos/mtcmorris/inline-comment-test/git/blobs/0b59f39f658b0b3a2cd8726b749d7ffcba372615"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 1293523,
+        "name": "mimeo-scribd",
+        "full_name": "mimeoconnect/mimeo-scribd",
+        "html_url": "https://github.com/mimeoconnect/mimeo-scribd",
+        "description": "This code allows users to work with files from Scribd Cloud Storage platform and integrate with Mimeo Cloud Print.  You need the follow API Accounts: Mimeo Connect Cloud Print API and Scribd API.  Actions: Pull PDF Document From Scribd Using API, Prepare Print Proof with PDF Using Mimeo Connect Cloud Print API, and Pull Small and Large Proof Images Using Mimeo Connect Cloud Print API. This source code is meant to be used for pulling documents from Scribd and Proofing with Mimeo prior to order printed copies.  Images for each page in document will be returned allowing the creation of a preview or full view of the PDF.Common viewings include Flash, HTML5, JQuery, Flipbook, etc.  ",
+        "updated_at": "2013-12-04T15:32:22Z",
+        "language": null,
+        "files": [
+            {
+                "name": "README",
+                "path": "README",
+                "url": "https://github.com/mimeoconnect/mimeo-scribd/blob/master/README",
+                "last_updated": "https://api.github.com/repos/mimeoconnect/mimeo-scribd/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "name": "pull-pdf-from-scribd-api-and-prepare-proof.php",
+                "path": "pull-pdf-from-scribd-api-and-prepare-proof.php",
+                "url": "https://github.com/mimeoconnect/mimeo-scribd/blob/master/pull-pdf-from-scribd-api-and-prepare-proof.php",
+                "last_updated": "https://api.github.com/repos/mimeoconnect/mimeo-scribd/git/blobs/83221576523172bb6a6c1f5eb64f9bb292b80d36"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 1005526,
+        "name": "encrev2_plugin",
+        "full_name": "epitech-labfree/encrev2_plugin",
+        "html_url": "https://github.com/epitech-labfree/encrev2_plugin",
+        "description": "proof of concept work -- nothing to see here",
+        "updated_at": "2014-04-18T21:17:33Z",
+        "language": "C++",
+        "files": [
+            {
+                "name": "Buffer.hh",
+                "path": "Buffer.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Buffer.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/192d522c1b9fd5e1bff268e26f64f3354d9906eb"
+            },
+            {
+                "name": "CMakeLists.txt",
+                "path": "CMakeLists.txt",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/CMakeLists.txt",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/369f468b6f2c569d25619466c98a51c413c6f99a"
+            },
+            {
+                "name": "Client.cpp",
+                "path": "Client.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Client.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/9e23bd6f1512b5a2f4f18e8247f8000064018241"
+            },
+            {
+                "name": "Client.hh",
+                "path": "Client.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Client.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/be4988a46c707c540d4c7cd61fbfae0b91534ee0"
+            },
+            {
+                "name": "EncreLog.hpp",
+                "path": "EncreLog.hpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/EncreLog.hpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/17006f453d60cd50dfd92891a347e497880e6e80"
+            },
+            {
+                "name": "Factory.cpp",
+                "path": "Factory.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Factory.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/979e6fb8ab93b54c86207676fda7466d19275dbd"
+            },
+            {
+                "name": "Imem.cpp",
+                "path": "Imem.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Imem.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/059f122d98b84cd4d410cb6932ef7e4319f75a00"
+            },
+            {
+                "name": "Imem.hh",
+                "path": "Imem.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Imem.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/71d80be7641041d006dea428d1c6dc240d947ebf"
+            },
+            {
+                "name": "InputVlcStream.cpp",
+                "path": "InputVlcStream.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/InputVlcStream.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/102117836dc7c5b975629e83f1e2249c8c0d8ea3"
+            },
+            {
+                "name": "InputVlcStream.hh",
+                "path": "InputVlcStream.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/InputVlcStream.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/5be4198e5330ed93bfe8048e008338d8394fb777"
+            },
+            {
+                "name": "Network.hpp",
+                "path": "Network.hpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Network.hpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/f1d2a529e6a1e94fd7fa6bedbb8495bf46a93c10"
+            },
+            {
+                "name": "OutputVlcStream.cpp",
+                "path": "OutputVlcStream.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/OutputVlcStream.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/fe364f9c81539fdb766296ef980a73b5e12a711c"
+            },
+            {
+                "name": "OutputVlcStream.hh",
+                "path": "OutputVlcStream.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/OutputVlcStream.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/cbc9e07e0b16bc20d118328a0dfd5cb0c1c66191"
+            },
+            {
+                "name": "PluginConfig.cmake",
+                "path": "PluginConfig.cmake",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/PluginConfig.cmake",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/075c2011e816ee073546cde6d2df4dc73bb8f851"
+            },
+            {
+                "name": "Protocol.cpp",
+                "path": "Protocol.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Protocol.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/3bbce63eceb044abc59500b1665fc7c86f6bc6d6"
+            },
+            {
+                "name": "Protocol.hh",
+                "path": "Protocol.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Protocol.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/f0a48d63d18be57e6334a8f8fe81668d80348fe7"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/0f0d0319e48418825f843e752fa954a17ef385d4"
+            },
+            {
+                "name": "Smem.cpp",
+                "path": "Smem.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Smem.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/dbc34d61d40db2b878cfe9ba9aef060077e3467c"
+            },
+            {
+                "name": "Smem.hh",
+                "path": "Smem.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Smem.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/7cd2325be739b4692ee35f1f124d3304ad229aaf"
+            },
+            {
+                "name": "Stream.cpp",
+                "path": "Stream.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Stream.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/f6ba64e20a70f11fd949f451e1b075770e5e9c4f"
+            },
+            {
+                "name": "Stream.hh",
+                "path": "Stream.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/Stream.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/72c252fe9ace76195d078dea670a710f1092df58"
+            },
+            {
+                "name": "VlcStream.cpp",
+                "path": "VlcStream.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/VlcStream.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/2a6e2a744855f669df7762edc059a14453c26560"
+            },
+            {
+                "name": "VlcStream.hh",
+                "path": "VlcStream.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/VlcStream.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/0088ae6053dea6d72cb7fa76773c86c192fa595c"
+            },
+            {
+                "name": "design_ideas.hh",
+                "path": "design_ideas.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/design_ideas.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/07d62b1f8359f636830955aea8db81ef61fcff5d"
+            },
+            {
+                "name": "encre.cpp",
+                "path": "encre.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/encre.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/7f79d021d8df789e0842dc0b50d70705fbb95deb"
+            },
+            {
+                "name": "encre.hh",
+                "path": "encre.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/encre.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/622e24ecf19c0098561129682d55604503dc01dd"
+            },
+            {
+                "name": "encrev2_plugin.cpp",
+                "path": "encrev2_plugin.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/encrev2_plugin.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/97b731c8b50cc8f642324399946981fdef39df15"
+            },
+            {
+                "name": "encrev2_plugin.h",
+                "path": "encrev2_plugin.h",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/encrev2_plugin.h",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/1c671fb819ac9b17d02b80d4292c30f4eb7c3ef3"
+            },
+            {
+                "name": "encrev2_pluginAPI.cpp",
+                "path": "encrev2_pluginAPI.cpp",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/encrev2_pluginAPI.cpp",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/55f60f298710caa6d3d0864c5d5246a463c3a155"
+            },
+            {
+                "name": "encrev2_pluginAPI.h",
+                "path": "encrev2_pluginAPI.h",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/encrev2_pluginAPI.h",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/e082db3efb4101c83dad25c9cceda7b715a3d300"
+            },
+            {
+                "name": "test.html",
+                "path": "test.html",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/test.html",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/458c13a258f1d4b24c8ce4e66b085ff37bfe47d4"
+            },
+            {
+                "name": "vlc_system_strategy.hh",
+                "path": "vlc_system_strategy.hh",
+                "url": "https://github.com/epitech-labfree/encrev2_plugin/blob/master/vlc_system_strategy.hh",
+                "last_updated": "https://api.github.com/repos/epitech-labfree/encrev2_plugin/git/blobs/d0c84303b58c88de90192eeb592244de2d831c70"
+            }
+        ],
+        "readme": "## Dependencies ##\n### Firebreath ###\n\n**Version 1.3** : git clone git://github.com/epitech-labfree/FireBreath.git\n*Installation for Unix* :\n\n<pre>\nmkdir projects && cd projects\nln -s [somewhere]/encrev2_plugin\ncd ../\n./prepmakesh -D WITH_SYSTEM_BOOST=1\ncd build && make && make install\n</pre>\n\n### VLC ###\n\n**Version 1.1 custom** with patched smem  : git clone git://github.com/epitech-labfree/vlc-1.1-encre.git\n\nVLC has a huge set of dependencies, so if you are on a Debian based operating system do :\n<pre>sudo apt-get build-dep vlc</pre>\nOr follow this list :\n\n* ttf-freefont\n* vlc-nox\n* libaa1\n* libavcodec52\n* libavcodec-extra-52\n* libavutil50\n* libavutil-extra-50\n* libc6\n* libfreetype6\n* libfribidi0\n* libgcc1\n* libgl1-mesa-glx\n* libgl1\n* libgl1-mesa-glx\n* libgl1-mesa-swx11\n* libqtcore4\n* libqtgui4\n* libsdl-image1.2\n* libsdl1.2debian\n* libstdc++6\n* libtar\n* libva-x11-1\n* libva1\n* libvlccore4\n* libx11-6\n* libx11-xcb1\n* libxcb-keysyms1\n* libxcb-randr0\n* libxcb-shm0\n* libxcb-xv0\n* libxcb1\n* libxext6\n* zlib1g\n\nInstallation for Unix :\n<pre>\n./bootstrap\n./configure --prefix=/usr/local\n./compile\nsudo make install\n</pre>\n\n### Boost ###\n**Version 1.42 or more**\n\n* libboost-thread\n* libboost-spirit\n* libboost-asio\n* libboost-system\n\n### Debugging ###\n*With Chrome/Chromium* : http://code.google.com/p/chromium/wiki/LinuxDebugging\n\n*With Firefox* : firefox -g test.html test.html\n\n"
+    },
+    {
+        "id": 1470279,
+        "name": "SlothNS",
+        "full_name": "jevinskie/SlothNS",
+        "html_url": "https://github.com/jevinskie/SlothNS",
+        "description": "a proof-of-work based extension to DNS",
+        "updated_at": "2019-12-21T01:25:25Z",
+        "language": "Python",
+        "files": [
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/ea7bc77aa21e68dce04d0b89febb40c963efd9b1"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/bb05d1822708d139046468e31f8d65cc62ab0e91"
+            },
+            {
+                "name": "fib.php",
+                "path": "fib.php",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/fib.php",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/55100aece10e64cefcc689bd7861185293fd38e1"
+            },
+            {
+                "name": "gen-virtenv-bootstrap.py",
+                "path": "gen-virtenv-bootstrap.py",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/gen-virtenv-bootstrap.py",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/121afe4b9ebe12f3c33879700439d8890aa47b0d"
+            },
+            {
+                "name": "log_miner.py",
+                "path": "log_miner.py",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/log_miner.py",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/393718bb9903cafc143e9d937e285fa7564999d9"
+            },
+            {
+                "name": "run_resolve.py",
+                "path": "run_resolve.py",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/run_resolve.py",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/5e362033b4baecd711b645841bd7d0c35c6ba238"
+            },
+            {
+                "name": "setup-deb.sh",
+                "path": "setup-deb.sh",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/setup-deb.sh",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/1a415d160da5302694db85d6721f7f7b968e3cb3"
+            },
+            {
+                "name": "slothns.py",
+                "path": "slothns.py",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/slothns.py",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/606b27cb4d911165abc290678e37c6e2eb441ce9"
+            },
+            {
+                "name": "slothns_lite.py",
+                "path": "slothns_lite.py",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/slothns_lite.py",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/862a736a619f6efe18e18edef447f673ca801d2c"
+            },
+            {
+                "name": "slothresolv.py",
+                "path": "slothresolv.py",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/slothresolv.py",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/5efb7d01dec82272588061da4f07b43dd343de56"
+            },
+            {
+                "name": "slothresolv_lite.py",
+                "path": "slothresolv_lite.py",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/slothresolv_lite.py",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/222297bdf291f01ad84ce73bb47b85f49dd92b50"
+            },
+            {
+                "name": "stressor.py",
+                "path": "stressor.py",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/stressor.py",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/8bb4d199941b444626f418df49590ff88a61e0be"
+            },
+            {
+                "name": "virtenv-bootstrap.py",
+                "path": "virtenv-bootstrap.py",
+                "url": "https://github.com/jevinskie/SlothNS/blob/master/virtenv-bootstrap.py",
+                "last_updated": "https://api.github.com/repos/jevinskie/SlothNS/git/blobs/1f1f2b759c7950af8fb3ebdbaf1ad8ada5a5714e"
+            }
+        ],
+        "readme": "What is it?\n===========\n\nSlothNS is an extension to DNS that aims to protect sensitive services\nfrom DoS attacks by requiring the resolving client to perform a\nproof-of-work (PoW) computation to obtain an IP. A PoW function is\ncostly (CPU time or RAM size) to compute, slowing down a DoS attack.\nThe returned IPs are randomized within 64-bits of the IPv6 address space\nand each returned IP is tied to the requesting client &mdash; malicious\nclients may not share resolved IPs to circumvent the system.\n\nPlease see `docs/project_proposal.md` for more information.\n\nWhat works right now?\n=====================\n\nA very rough, prototype implementation of the idea is underway. A Twisted-based\nDNS server is able to issue a PoW challenge and check the response before\nreturning a random IPv6 address. A Twisted-based resolver is provided to test\nthe server.\n\nWhat remains to be done?\n========================\n\n * Implement the new resolver in glibc to allow unmodified program to use SlothNS\n * Have the server register random resolved IPs with the system firewall to allow\n   access to the protected service\n\nWho is doing it?\n================\n\nThe project authors are Nina Baker and Jevin Sweval.\n\nWhy are you doing it?\n=====================\n\nThis project is for our [Fault-Tolerant Computer System Design class] [course_page]\nat Purdue University.\n\n[course_page]: https://engineering.purdue.edu/ee695b/public-web/\n\n"
+    },
+    {
+        "id": 1778458,
+        "name": "consolescripts",
+        "full_name": "brianswisher/consolescripts",
+        "html_url": "https://github.com/brianswisher/consolescripts",
+        "description": "Scripts for development & proof of concept work.",
+        "updated_at": "2013-09-29T12:23:06Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/brianswisher/consolescripts/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/brianswisher/consolescripts/git/blobs/3b3809fc5cb012763fbb0318a9d945112f1b8e0c"
+            }
+        ],
+        "readme": "#  ConsoleScripts [http://brianswisher.com/consolescripts/](http://brianswisher.com/consolescripts/)\n\n## Summary:\n\nThis is a library of javascript utilities that can be used on web pages at runtime through a javascript console or bookmark-let. They're meant as tools for development or proof of concept work. Start with a script that provides the core function you're looking for and build on top of it. Properties of a consoleScript:\n\n1. Wrapped in JavaScript closures to protect namespaces.\n2. Small, specific, & portable.\n3. Don't take the time to degrade for less capable browsers.\n4. Pass JSLINT, unless justified otherwise."
+    },
+    {
+        "id": 2496481,
+        "name": "beautify_git_hash",
+        "full_name": "vog/beautify_git_hash",
+        "html_url": "https://github.com/vog/beautify_git_hash",
+        "description": "Beautify the Git commit hash! This is a little useless toy inspired by BitCoin's \"proof of work\" concept. It enables you to modify your Git commit to enforce a certain prefix on the Git commit hash.",
+        "updated_at": "2023-03-31T13:22:54Z",
+        "language": "Python",
+        "files": [
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/vog/beautify_git_hash/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/vog/beautify_git_hash/git/blobs/0d20b6487c61e7d1bde93acf4a14b7a89083a16d"
+            },
+            {
+                "name": "beautify_git_hash.py",
+                "path": "beautify_git_hash.py",
+                "url": "https://github.com/vog/beautify_git_hash/blob/master/beautify_git_hash.py",
+                "last_updated": "https://api.github.com/repos/vog/beautify_git_hash/git/blobs/5f0a77bcf37c3f12d4e7648d669ad0943b16948e"
+            },
+            {
+                "name": "post-commit",
+                "path": "post-commit",
+                "url": "https://github.com/vog/beautify_git_hash/blob/master/post-commit",
+                "last_updated": "https://api.github.com/repos/vog/beautify_git_hash/git/blobs/d18d22e091621779c9d4e7269b64c99af961094e"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 2070697,
+        "name": "Formal-Reasoning-in-Computer-Science",
+        "full_name": "akanazawa/Formal-Reasoning-in-Computer-Science",
+        "html_url": "https://github.com/akanazawa/Formal-Reasoning-in-Computer-Science",
+        "description": "University of Maryland open study group on mathematical proofs, theoretical arguments, probability theory and randomized algorithms. Focus on solving problems. Content has been chosen to complement graduate-level work in computer science.",
+        "updated_at": "2014-05-22T09:44:01Z",
+        "language": "Emacs Lisp",
+        "files": [
+            {
+                "name": "README.markdown",
+                "path": "README.markdown",
+                "url": "https://github.com/akanazawa/Formal-Reasoning-in-Computer-Science/blob/master/README.markdown",
+                "last_updated": "https://api.github.com/repos/akanazawa/Formal-Reasoning-in-Computer-Science/git/blobs/b1b08a4f4c6dd0e6a59e01f78831415dd6fac916"
+            },
+            {
+                "name": "alice.pdf",
+                "path": "alice.pdf",
+                "url": "https://github.com/akanazawa/Formal-Reasoning-in-Computer-Science/blob/master/alice.pdf",
+                "last_updated": "https://api.github.com/repos/akanazawa/Formal-Reasoning-in-Computer-Science/git/blobs/8ea1f16da2432438073ce5cd9fd919546c9476cf"
+            },
+            {
+                "name": "alice.tex",
+                "path": "alice.tex",
+                "url": "https://github.com/akanazawa/Formal-Reasoning-in-Computer-Science/blob/master/alice.tex",
+                "last_updated": "https://api.github.com/repos/akanazawa/Formal-Reasoning-in-Computer-Science/git/blobs/15d56f7a9e1dfa1d6850c64224ca7b5ea89d3771"
+            },
+            {
+                "name": "mathcheatsheet.pdf",
+                "path": "mathcheatsheet.pdf",
+                "url": "https://github.com/akanazawa/Formal-Reasoning-in-Computer-Science/blob/master/mathcheatsheet.pdf",
+                "last_updated": "https://api.github.com/repos/akanazawa/Formal-Reasoning-in-Computer-Science/git/blobs/297ce343732eae38bb6a523a13a329aa50d170a9"
+            },
+            {
+                "name": "mathforcs.pdf",
+                "path": "mathforcs.pdf",
+                "url": "https://github.com/akanazawa/Formal-Reasoning-in-Computer-Science/blob/master/mathforcs.pdf",
+                "last_updated": "https://api.github.com/repos/akanazawa/Formal-Reasoning-in-Computer-Science/git/blobs/e3da81beb3df3571f1a529c992e92f7031c07ef8"
+            },
+            {
+                "name": "mathforcs.tex",
+                "path": "mathforcs.tex",
+                "url": "https://github.com/akanazawa/Formal-Reasoning-in-Computer-Science/blob/master/mathforcs.tex",
+                "last_updated": "https://api.github.com/repos/akanazawa/Formal-Reasoning-in-Computer-Science/git/blobs/2b9334cdee24eaaec6cc64cc5e09ea35d2900d12"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 3391652,
+        "name": "clip-player",
+        "full_name": "jrolfs/clip-player",
+        "html_url": "https://github.com/jrolfs/clip-player",
+        "description": "Work in progress proof of concept for looping segments of video in the HTML5 video element.",
+        "updated_at": "2015-05-15T18:07:57Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": "README",
+                "path": "README",
+                "url": "https://github.com/jrolfs/clip-player/blob/master/README",
+                "last_updated": "https://api.github.com/repos/jrolfs/clip-player/git/blobs/95a2181ae34da6b8f75b7ebffecfc1256c1df935"
+            },
+            {
+                "name": "index.html",
+                "path": "index.html",
+                "url": "https://github.com/jrolfs/clip-player/blob/master/index.html",
+                "last_updated": "https://api.github.com/repos/jrolfs/clip-player/git/blobs/bd9836bc17cfbfd9467c9e83ae9728fb0d3bb565"
+            },
+            {
+                "name": "main.css",
+                "path": "main.css",
+                "url": "https://github.com/jrolfs/clip-player/blob/master/main.css",
+                "last_updated": "https://api.github.com/repos/jrolfs/clip-player/git/blobs/2b20c54a63c0f9166846100e03c37ae95760945e"
+            },
+            {
+                "name": "main.js",
+                "path": "main.js",
+                "url": "https://github.com/jrolfs/clip-player/blob/master/main.js",
+                "last_updated": "https://api.github.com/repos/jrolfs/clip-player/git/blobs/36ec50bb79c4e63a64d086c54a9f772c40a968e0"
+            },
+            {
+                "name": "play_pause.png",
+                "path": "play_pause.png",
+                "url": "https://github.com/jrolfs/clip-player/blob/master/play_pause.png",
+                "last_updated": "https://api.github.com/repos/jrolfs/clip-player/git/blobs/896ff9c340ea1ae0a18c4a663b0e21836032e1f4"
+            },
+            {
+                "name": "test.m4v",
+                "path": "test.m4v",
+                "url": "https://github.com/jrolfs/clip-player/blob/master/test.m4v",
+                "last_updated": "https://api.github.com/repos/jrolfs/clip-player/git/blobs/2fd31b153231148e1a636ad3cd8cebf4eddaf96d"
+            },
+            {
+                "name": "toggle_loop.png",
+                "path": "toggle_loop.png",
+                "url": "https://github.com/jrolfs/clip-player/blob/master/toggle_loop.png",
+                "last_updated": "https://api.github.com/repos/jrolfs/clip-player/git/blobs/b8abcf600cb0909b3b830f66db34236a04fed488"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 3598037,
+        "name": "POWeb",
+        "full_name": "andre-d/POWeb",
+        "html_url": "https://github.com/andre-d/POWeb",
+        "description": "Proof of work based spam prevention, proof of concept",
+        "updated_at": "2014-12-18T19:39:41Z",
+        "language": "Python",
+        "files": [
+            {
+                "name": "poweb.py",
+                "path": "poweb.py",
+                "url": "https://github.com/andre-d/POWeb/blob/master/poweb.py",
+                "last_updated": "https://api.github.com/repos/andre-d/POWeb/git/blobs/5eb98deb4b13bce783188baaf9f3d2198c592a3d"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 4120091,
+        "name": "form-generator-for-codeigniter",
+        "full_name": "ariven/form-generator-for-codeigniter",
+        "html_url": "https://github.com/ariven/form-generator-for-codeigniter",
+        "description": "Generates a form dynamically based on passed in configuration instead of using a view for the form.  More of a proof of concept than a fully completed work.",
+        "updated_at": "2023-01-28T14:21:37Z",
+        "language": "PHP",
+        "files": [
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/ariven/form-generator-for-codeigniter/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/ariven/form-generator-for-codeigniter/git/blobs/596899ab3631ca77623c1af006f82b02cea1e12b"
+            }
+        ],
+        "readme": "form-generator-for-codeigniter\n==============================\n\nGenerates a form dynamically based on passed in configuration instead of using a view for the form.  More of a proof of concept than a fully completed work.\n\nafter adding the library to your function, you can pass the following configuration file options to the init() function:\n<code>\n$config = array(\n\t\t'form_title' => 'Title text used in form',\n\t\t'form_id' => 'form', // id tag for form\n\t\t'form_action' => '/form', // URL for form to submit to\n\t\t'form_class' => 'form_class', // class(es) to include on form\n\t\t'hidden' => array('name' => 'value'), // array of field names and values for hidden fields\n\t\t'multipart' => FALSE,  // is this a multipart form\n\t\t'submit_button' => 'Submit', // name to use on submit button\n\t\t'after_button' => ' or <a href=\"/\">Cancel</a>', // text to place after submit button (if any)\n\t\t'fields' => array('name' => 'field_name', 'type' => 'text', 'id' => 'field_id', // array of name/type/id info where 'type' can be any input type.  Alternately, can be just an array of single strings that are field names\n\t);\n</code>\n\tthis is used:\n<code>\n\t$this->form->init($config);\n</code>\n\tSee the documentation of each function in the library file for more details."
+    },
+    {
+        "id": 1620143,
+        "name": "drupal-full_node_version",
+        "full_name": "elstudio/drupal-full_node_version",
+        "html_url": "https://github.com/elstudio/drupal-full_node_version",
+        "description": "Keep separate staging and production versions of Drupal nodes",
+        "updated_at": "2016-07-25T01:20:37Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": ".cvsignore",
+                "path": ".cvsignore",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/.cvsignore",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/c3d69083fa1901f32c3169a055554d6cdab8dbad"
+            },
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/17e948f1d6ce9bf5617407dc9b4182c4ee52e6e2"
+            },
+            {
+                "name": "README.txt",
+                "path": "README.txt",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/README.txt",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/60baa4b9e7b6570de5b4e65b47873d12b66666fa"
+            },
+            {
+                "name": "full_node_version.access.inc",
+                "path": "full_node_version.access.inc",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version.access.inc",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/dde318d2766c273e336e7b6fe1b08ba1f06f9684"
+            },
+            {
+                "name": "full_node_version.admin.inc",
+                "path": "full_node_version.admin.inc",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version.admin.inc",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/418779b654d9ae87616e9b885c2d76e6f95ede6b"
+            },
+            {
+                "name": "full_node_version.info",
+                "path": "full_node_version.info",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version.info",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/275657c9623134107631b80a7b0dd51104be4d98"
+            },
+            {
+                "name": "full_node_version.install",
+                "path": "full_node_version.install",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version.install",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/f618c887f384d734608a60cc1c7440bf982afc39"
+            },
+            {
+                "name": "full_node_version.module",
+                "path": "full_node_version.module",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version.module",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/a160644c1c393c297ac391ad54014bf91ce99daf"
+            },
+            {
+                "name": "full_node_version.node_form.inc",
+                "path": "full_node_version.node_form.inc",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version.node_form.inc",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/b02a83df472c9fbd31e8e37ecb2a670b548184f7"
+            },
+            {
+                "name": "full_node_version.node_status.inc",
+                "path": "full_node_version.node_status.inc",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version.node_status.inc",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/fce2316c1b246cdb2ae2eb1ad681acf41af9e9e5"
+            },
+            {
+                "name": "full_node_version.review.inc",
+                "path": "full_node_version.review.inc",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version.review.inc",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/14b93f3e7e9164a294bb5f9be29199fc13646ba3"
+            },
+            {
+                "name": "full_node_version.status.inc",
+                "path": "full_node_version.status.inc",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version.status.inc",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/838900be6a5d1a2bb711c88e13d05c0ec1762fb1"
+            },
+            {
+                "name": "full_node_version.testing_state.inc",
+                "path": "full_node_version.testing_state.inc",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version.testing_state.inc",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/abb7be4ed1348ffaf7eab30a84316503a18d3c82"
+            },
+            {
+                "name": "full_node_version_status_box.css",
+                "path": "full_node_version_status_box.css",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version_status_box.css",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/e1de861ef1e180387a4383573f1658f9ae204212"
+            },
+            {
+                "name": "full_node_version_status_box.js",
+                "path": "full_node_version_status_box.js",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version_status_box.js",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/ecafd20211db06f906680b6c4bbb25c65ebde9fb"
+            },
+            {
+                "name": "full_node_version_testing_status.css",
+                "path": "full_node_version_testing_status.css",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version_testing_status.css",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/08f8ef059666f9df3c3f4d2e6bdb505b49d8d1d7"
+            },
+            {
+                "name": "full_node_version_testing_status.js",
+                "path": "full_node_version_testing_status.js",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/full_node_version_testing_status.js",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/b596592b81d98406eb771eca3851e5d14107580d"
+            },
+            {
+                "name": "tick.png",
+                "path": "tick.png",
+                "url": "https://github.com/elstudio/drupal-full_node_version/blob/master/tick.png",
+                "last_updated": "https://api.github.com/repos/elstudio/drupal-full_node_version/git/blobs/a9925a06ab02db30c1e7ead9c701c15bc63145cb"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 381141,
+        "name": "nodecast",
+        "full_name": "simonw/nodecast",
+        "html_url": "https://github.com/simonw/nodecast",
+        "description": "A simple comet broadcast server, originally implemented as a demo for Full Frontal 2009.",
+        "updated_at": "2022-10-04T09:55:19Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/simonw/nodecast/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/simonw/nodecast/git/blobs/325b6a047841e65d5fe80573bfa487b7208c900f"
+            },
+            {
+                "name": "README.txt",
+                "path": "README.txt",
+                "url": "https://github.com/simonw/nodecast/blob/master/README.txt",
+                "last_updated": "https://api.github.com/repos/simonw/nodecast/git/blobs/3c975107a94b3a43f935ea6b784813d84ca094bd"
+            },
+            {
+                "name": "autorestart.rb",
+                "path": "autorestart.rb",
+                "url": "https://github.com/simonw/nodecast/blob/master/autorestart.rb",
+                "last_updated": "https://api.github.com/repos/simonw/nodecast/git/blobs/ee80271d4dee4a1c5c8fcf618ab9f091f309f0d2"
+            },
+            {
+                "name": "index.html",
+                "path": "index.html",
+                "url": "https://github.com/simonw/nodecast/blob/master/index.html",
+                "last_updated": "https://api.github.com/repos/simonw/nodecast/git/blobs/a9d0cd6b73ec1d1d1561a80a87ddcb850f30c0df"
+            },
+            {
+                "name": "jquery-1.3.2.js",
+                "path": "jquery-1.3.2.js",
+                "url": "https://github.com/simonw/nodecast/blob/master/jquery-1.3.2.js",
+                "last_updated": "https://api.github.com/repos/simonw/nodecast/git/blobs/926357433e3e8289757481ee826cee31657982fe"
+            },
+            {
+                "name": "nodecast.js",
+                "path": "nodecast.js",
+                "url": "https://github.com/simonw/nodecast/blob/master/nodecast.js",
+                "last_updated": "https://api.github.com/repos/simonw/nodecast/git/blobs/bc942264056b5d5cc2a67d214a312d09cf75a46c"
+            },
+            {
+                "name": "redis.js",
+                "path": "redis.js",
+                "url": "https://github.com/simonw/nodecast/blob/master/redis.js",
+                "last_updated": "https://api.github.com/repos/simonw/nodecast/git/blobs/dcf81648216a0b3bc1aa589cd2252e84fbdeabfb"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 644820,
+        "name": "webchat",
+        "full_name": "scottgonzalez/webchat",
+        "html_url": "https://github.com/scottgonzalez/webchat",
+        "description": "a full featured web chat built on node-chat",
+        "updated_at": "2022-09-30T02:11:44Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": "TODO",
+                "path": "TODO",
+                "url": "https://github.com/scottgonzalez/webchat/blob/master/TODO",
+                "last_updated": "https://api.github.com/repos/scottgonzalez/webchat/git/blobs/57e25bf5d3ba6f8bda8894f694ec1dc3db3ac885"
+            },
+            {
+                "name": "webchat.js",
+                "path": "webchat.js",
+                "url": "https://github.com/scottgonzalez/webchat/blob/master/webchat.js",
+                "last_updated": "https://api.github.com/repos/scottgonzalez/webchat/git/blobs/14b2abf20ad905fc28f24bcda4cd42b83dc19912"
+            }
+        ],
+        "readme": null
+    },
+    {
+        "id": 836773,
+        "name": "Search",
+        "full_name": "talltyler/Search",
+        "html_url": "https://github.com/talltyler/Search",
+        "description": "A Node.js full text search library",
+        "updated_at": "2022-08-08T15:01:09Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": "History.md",
+                "path": "History.md",
+                "url": "https://github.com/talltyler/Search/blob/master/History.md",
+                "last_updated": "https://api.github.com/repos/talltyler/Search/git/blobs/6862ddca4999ff7296b62e7f4b7b2ff50a49ef7f"
+            },
+            {
+                "name": "Readme.md",
+                "path": "Readme.md",
+                "url": "https://github.com/talltyler/Search/blob/master/Readme.md",
+                "last_updated": "https://api.github.com/repos/talltyler/Search/git/blobs/674fd6057b9ab8aa485f5eefd0073ffb5efe71dd"
+            },
+            {
+                "name": "package.json",
+                "path": "package.json",
+                "url": "https://github.com/talltyler/Search/blob/master/package.json",
+                "last_updated": "https://api.github.com/repos/talltyler/Search/git/blobs/c21c05be8f92aa1ecf788de28da3b36fce3ad88e"
+            }
+        ],
+        "readme": "\n# A JavaScript full text search engine\n\nThis is an implementation of a \"vector space model\" with \"Porter stemming\", \"double-metaphones\", false boolean searches, field searching and field weighting. Basically it a full text search engine that has most of the fancy features the well known search engines libraries like Sphinx, Solr, Lucene, etc. The big difference is that it is written in JavaScript originally for use with Node.js but I'm sure it will work with other common.js platforms!\n\n\n## Example\n\n\tvar Search = require('./../lib/Search').Search;\n\tvar nStore = require('./lib/nstore');\n\n\t// A simple data set to search over, feel free to use any data source, nstore uses JavaScript objects so it's simple\n\tvar db = nStore('data/example.db');\n\n\tdb.all(null,function (err, docs, metas) {\n\t  if (err) throw err;\n\t\tvar s = new Search();\n\t\ts.fieldWeights.title = 5;\n\t\ts.index(docs); // Create a search index, this should only be done when app loads or data changes\n\t\tvar terms = \"meet !poultry\";\n\t\tvar results = s.query(terms,[\"title\"]); // search only the title field \n\t\tfor(var i=0;i<results.length;i++){\n\t\t\tconsole.log(results[i].id+\" \"+docs[results[i].id].title +\" \"+  results[i].rank);\n\t\t}\n\t});\n\n\t\n## This code is based on idea and code from\n\n\thttp://blog.josephwilk.net/projects/building-a-vector-space-search-engine-in-python.html\n\thttp://github.com/maritz/js-double-metaphone/raw/master/double-metaphone.js\n\thttp://yeti-witch.googlecode.com/svn/trunk/lib/porter-stemmer.js\n\thttp://www.koders.com/javascript/fidACD9DF0C1463CFC127D8C8B767B77122F3FC7331.aspx\n\thttp://playnice.ly/blog/2010/05/05/a-fast-fuzzy-full-text-index-using-redis/\n\thttp://users.telenet.be/paul.larmuseau/SVD.htm\n\thttp://gist.github.com/389875\n\thttp://sylvester.jcoglan.com/api/matrix\n\thttp://www.uni-bonn.de/~manfear/matrixcalc.php\n\thttp://www.sphinxsearch.com/docs/manual-1.10.html#boolean-syntax\n\thttp://stackoverflow.com/questions/90580/word-frequency-algorithm-for-natural-language-processing\n\thttp://stackoverflow.com/questions/2699646/how-to-get-logical-parts-of-a-sentence-with-java\n\n\n## Things that it doesn't currently do but would like to look into:\t\n\n\tPhrase based searches, everything is word based, combonations of words are not currently supported\n\tExact matches, all words are converted to stemmed metaphones so \"ponies\" is indexed as the sound of \"pony\".\n\tDate based searches or other meta data with additional logic are not currently supported\n\ttf-idf based ranking, currently using a term count\n\thttp://blog.josephwilk.net/projects/latent-semantic-analysis-in-python.html\n\thttp://en.wikipedia.org/wiki/Lanczos_method\n\thttp://en.wikipedia.org/wiki/Latent_semantic_indexing\n\thttp://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis\n\thttp://en.wikipedia.org/wiki/Latent_Dirichlet_allocation\n\thttp://en.wikipedia.org/wiki/Part-of-speech_tagging\n\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2009 Motion &amp; Color &lt;Tyler Larson&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+        "id": 891662,
+        "name": "node-search",
+        "full_name": "talltyler/node-search",
+        "html_url": "https://github.com/talltyler/node-search",
+        "description": "A Node.js full text search library",
+        "updated_at": "2022-07-02T02:13:17Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": "History.md",
+                "path": "History.md",
+                "url": "https://github.com/talltyler/node-search/blob/master/History.md",
+                "last_updated": "https://api.github.com/repos/talltyler/node-search/git/blobs/6862ddca4999ff7296b62e7f4b7b2ff50a49ef7f"
+            },
+            {
+                "name": "Readme.md",
+                "path": "Readme.md",
+                "url": "https://github.com/talltyler/node-search/blob/master/Readme.md",
+                "last_updated": "https://api.github.com/repos/talltyler/node-search/git/blobs/ea2f85cc3f92a205ee9e0bb9070c364ae1b917a7"
+            },
+            {
+                "name": "package.json",
+                "path": "package.json",
+                "url": "https://github.com/talltyler/node-search/blob/master/package.json",
+                "last_updated": "https://api.github.com/repos/talltyler/node-search/git/blobs/c21c05be8f92aa1ecf788de28da3b36fce3ad88e"
+            }
+        ],
+        "readme": "# A JavaScript full text search engine\n\nThis is an implementation of a \"vector space model\" with \"Porter stemming\", \"double-metaphones\", false boolean searches, field searching and field weighting. Basically it a full text search engine that has most of the fancy features the well known search engines libraries like Sphinx, Solr, Lucene, etc. The big difference is that it is written in JavaScript originally for use with Node.js.\n\n\n## Example\n\n\tvar NodeSearch = require('./../lib/node-search').NodeSearch;\n\tvar nStore = require('./lib/nstore');\n\n\t// A simple data set to search over, feel free to use any data source, nstore uses JavaScript objects so it's simple\n\tvar db = nStore('data/example.db');\n\n\tvar search = new NodeSearch();\n\tsearch.fieldWeights.title = 2; // Make one/or many of the document fields more important\n\tvar stream = db.stream();\n\tstream.addListener('data', function (doc, meta) {\n\t\tsearch.index(meta.key,doc);\n\t});\n\n\tstream.addListener('end', function () { // when the indexing is finished\n\t\tsearch.query(\"meet !poultry\", null, function (results) { // search and wait for the results\n\t\t\tresults.forEach(function(result){\n\t\t\t\tdb.get(result.key, function (err, doc, meta) { \n\t\t\t\t\tif(err) throw err;\n\t\t\t\t\tconsole.log(result.key+\" \"+doc.title +\" \"+doc.body +\" \"+  result.rank);\n\t\t\t\t});\n\t\t\t});\n\t\t});\n\t});\n\n\t\n## This code is based on idea and code from\n\n\thttp://blog.josephwilk.net/projects/building-a-vector-space-search-engine-in-python.html\n\thttp://github.com/maritz/js-double-metaphone/raw/master/double-metaphone.js\n\thttp://yeti-witch.googlecode.com/svn/trunk/lib/porter-stemmer.js\n\thttp://www.koders.com/javascript/fidACD9DF0C1463CFC127D8C8B767B77122F3FC7331.aspx\n\thttp://playnice.ly/blog/2010/05/05/a-fast-fuzzy-full-text-index-using-redis/\n\thttp://users.telenet.be/paul.larmuseau/SVD.htm\n\thttp://gist.github.com/389875\n\thttp://sylvester.jcoglan.com/api/matrix\n\thttp://www.uni-bonn.de/~manfear/matrixcalc.php\n\thttp://www.sphinxsearch.com/docs/manual-1.10.html#boolean-syntax\n\thttp://stackoverflow.com/questions/90580/word-frequency-algorithm-for-natural-language-processing\n\thttp://stackoverflow.com/questions/2699646/how-to-get-logical-parts-of-a-sentence-with-java\n\n\n## Things that it doesn't currently do but would like to look into:\t\n\n\tPhrase based searches, everything is word based, combonations of words are not currently supported\n\tExact matches, all words are converted to stemmed metaphones so \"ponies\" is indexed as the sound of \"pony\".\n\tDate based searches or other meta data with additional logic are not currently supported\n\ttf-idf based ranking, currently using a term count\n\thttp://blog.josephwilk.net/projects/latent-semantic-analysis-in-python.html\n\thttp://en.wikipedia.org/wiki/Lanczos_method\n\thttp://en.wikipedia.org/wiki/Latent_semantic_indexing\n\thttp://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis\n\thttp://en.wikipedia.org/wiki/Latent_Dirichlet_allocation\n\thttp://en.wikipedia.org/wiki/Part-of-speech_tagging\n\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2009 Motion &amp; Color &lt;Tyler Larson&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+        "id": 1556702,
+        "name": "Robusta",
+        "full_name": "ztane/Robusta",
+        "html_url": "https://github.com/ztane/Robusta",
+        "description": "A TurboGears 2 inspired full stack framework for Node.js",
+        "updated_at": "2013-12-22T12:52:32Z",
+        "language": "CoffeeScript",
+        "files": [
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/ztane/Robusta/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/ztane/Robusta/git/blobs/cbf2d16c13f250ba8af36d16a8c9e93af9f66ee4"
+            },
+            {
+                "name": "package.json",
+                "path": "package.json",
+                "url": "https://github.com/ztane/Robusta/blob/master/package.json",
+                "last_updated": "https://api.github.com/repos/ztane/Robusta/git/blobs/9c14f5d10158a88e1c639ca5b3c62ec836004e48"
+            }
+        ],
+        "readme": "A TurboGears 2 inspired full stack framework for Node.js written in CoffeeScript.\nStill heavily under progress, but someone might find this one actually useful already.\n\nBackground\n==========\n\nI have been using TurboGears 2.0 / Pylons infrastructure on Python recently; I have noticed\nmany shortcomings in the existing Node.js frameworks. None of the projects fulfilled my needs, \nso I had to roll out yet another framework. Most notable deficiencies in all existing frameworks\nwere\n\n-   None really supported configuration files. In Pylons/TurboGears, the full stack\n    can be configured in the configuration file. This has the advantage of rolling out\n    a slightly different configuration for testing by just changing the startup configuration \n    file.\n\n-   Seriously speaking, the pattern-dispatch url routing (invented by RoR?) is the most brain \n    damaged pattern ever. TurboGears 2.0 provided an alternative, whereby a part of hierarchy\n    would be mapped to a class or a class instance, with its methods as the verbs. This allows\n    one to construct complex hierarchies, and mount some hierarchies to multiple locations,\n    without any code reuse.\n\n    Suppose your system has two kinds of commentable objects: users and articles. You\n    can then have a single CommentController mapped to both /user/123/comments and \n    /article/456/comments, with slightly differing semantics; but other routing would\n    not need to know the url hierarchy below the comments portion\n\n-   No existing framework supported internationalization, period. Yeah, some projects did \n    claim they do it, but no. No gettext support, no proper embedding in templates, nothing.\n    The translatable strings need to be there where they are used. None of the existing \n    frameworks did support this though\n\n-   Many embedded template frameworks did not support effortless async rendering! What \n    is the point in having the complexity of asynchronous language if you cannot throw\n    some promises to your template?\n\n-   Reinvent the wheel. Many frameworks roll out their half-assed tools and templating\n    languages etc. Robusta is built on Express and tries to use it as much as possible.\n    The template engine is Dust, whose syntax is a bit awkward and it is quite far from\n    such a gem as Genshi, but it was the only sane engine available that would allow us \n    to roll out i18n support and would support asynchronous rendering. \n\n\nGoals\n=====\n\nThe goals of this project are to include the following features:\n\n-   url routing by traversing property graph (implemented).\n-   extendable, yet easy, server configuration using subclassing (started).\n-   pluggable mechanisms for authentication, sessions, caching, etc. (well\n    you might use express facilities for now)\n-   embedded i18n both in the client side scripts and on the server side. \n-   MO/PO files compiled to JSON\n-   currently achievable with the attached python tool\n-   integrated templating with full support for promises. (using dust)\n-   extensive debugging support.\n\nRequirements\n============\n\n-   Express framework  (http://expressjs.com/)\n-   CoffeeScript 1.0 (http://jashkenas.github.com/coffee-script/)\n-   Dust (http://akdubya.github.com/dustjs/)\n\nRunning the example\n===================\n\n-   run \"npm link\" in the package.json directory\n-   change to example subdirectory and run \"robusta serve\" (it defaults to 'development.ini')\n-   go to http://localhost:8000/ and enjoy\n"
+    },
+    {
+        "id": 2094492,
+        "name": "irc2",
+        "full_name": "AvianFlu/irc2",
+        "html_url": "https://github.com/AvianFlu/irc2",
+        "description": "A full-featured IRC client library in Node.js.",
+        "updated_at": "2013-10-01T15:38:29Z",
+        "language": null,
+        "files": [
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/AvianFlu/irc2/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/AvianFlu/irc2/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            }
+        ],
+        "readme": ""
+    },
+    {
+        "id": 1807187,
+        "name": "node-rpc-socket.io",
+        "full_name": "Tronix117/node-rpc-socket.io",
+        "html_url": "https://github.com/Tronix117/node-rpc-socket.io",
+        "description": "socket.io addon, add a full client/server implementation of JSON-RPC",
+        "updated_at": "2021-02-24T04:05:18Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/Tronix117/node-rpc-socket.io/blob/node-rpc-socket.io/README.md",
+                "last_updated": "https://api.github.com/repos/Tronix117/node-rpc-socket.io/git/blobs/8b9732830862bd6ad13a2543ede10d0358d07722"
+            }
+        ],
+        "readme": "# Node-RPC-Socket.io - Implementation of JSON-RPC over socket.io\n\n  It's easy to use socket.io, but it work only in one way : server to client or client to server.\n  JSON-RPC is a standard that allow a client to ask an answer from the server, with standard JSON structure for request and response. With socket.io, the server can also call an RPC answer from the client.\n  \n  Currently, I've only made a client package for websites in javascript, but I'm working on a full cocoa implementation of the client for iOS or OSX apps. Coming soon...\n  \n## Features\n\n  - Very simple to use\n  - Client can ask Server but Server can also ask Client\n  - Asynchronous callbacks\n  - *NEW* Success or error response can be passed through other callbacks \n  - Exceptions are fully compatible with the JSON-RPC standard and can be interpreted by the `Error callback` client side (or server side)\n  - Can also Broadcast an RPC message to all clients or all with exceptions (in this way, no response can be handled by the server, it works only like a notification)\n  - Compatible all webbrowsers since ie5.5 (same compatibility as socket.io)\n  \n## Tutorial / Example\n\nI've included an example of a chat (yes another one, I know :P), this chat is based on express.js with jade and stylus.\n\n\n```\n  git clone git://github.com/Tronix117/node-rpc-socket.io.git\n  cd node-rpc-socket.io/example\n  npm install -i\n  node app.js\n```\n\nThen go, in more than one tab of your webbrowser, to this url : `http://127.0.0.1:3000` and enjoy !\nFiles are commented and should be simple to understand.  \n\n## Installation\n\n### Prerequiste\n\nYou first need to install socket.io \n\n    npm install -i socket.io\n\n### Client-Side\n\n```html\n  <script type=\"text/javascript\" src=\"/socket.io/socket.io.js\"></script>\n  <script type=\"text/javascript\" src=\"/javascripts/rpc.socket.io.js\"></script>\n```\n\n### Server-Side\n```javascript\n  var io = require('rpc.socket.io.js');\n```\nIt's not necessary to require `socket.io`, in fact `rpc.socket.io.js` already include it.\n\n## Use\n\n### Server-Side\n\n```javascript\n  //function used later, you can jump after and let's come back when it'll be called\n  var checkAuthz = function(params,client,next){\n    if(!params.password || !params.user || params.user!='admin' || params.password!='toor')\n      throw new {code:'UNAUTHORIZED',message:'Your are not enough powerfull to access to this information'};\n    return next(); //pass throught the next callback function (the one just bellow) and return it\n  }\n\n  var socket = io.listen(app); //app is the server created with http.createServer or the express.createServer of express.js\n  socket.on('connection', function(client){\n    //here, there's a new client, it's time to listen to the call of a method from the client\n    \n    //First of all, we are going to send the current time when the client will request \"getRemoteTime\"\n    client.listenRPC('getRemoteTime',checkAuthz, /*for checkAuthz see at the top*/\n      function(params){\n        return (new Date()).getTime();\n      }\n    );\n    \n    //We send a banner to the client\n    client.callRPC('banner',{time:(new Date()).getTime(), message:'Welcome to you !'});\n    \n    //We send an information message to all OTHER clients\n    client.broadcastNotifyRPC('notification',{code:'NEWUSER', message:'A new user is connected'});\n  });\n```\n\n### Client-Side\n\n```javascript\n  var socket = new io.Socket('127.0.0.1'), //address and port of the websocket server, check socket.io for more help\n      showNotification = function(notif){\n        alert(notif.message);\n      };\n  \n  socket\n    .listenRPC('banner', function(params){\n      if(params.time && params.message)\n        alert(params.message);\n    })\n    .listenRPC('notification',showNotification);\n  \n  document.getElementById('btn').onClick=function(){\n    socket.callRPC('getRemoteTime',{user:'admin', password:'toor'},{\n      success: function(result){\n        alert('The remote time is ' + result);\n      },\n      error: function(err){\n        switch(err.code){\n          case 'UNAUTHORIZED':\n            alert(err.message);\n          break;\n          case 'CALLRPCTIMEOUT':\n            alert('Please check your network, server doesn\\'t seem to respond');\n          break;\n          default:\n            alert('Unknown Error !');\n          break;\n        }\n      }\n    });\n  }\n  \n  //finaly we launch the socket\n  socket.connect();\n```\n\n### Running\n\nNow let's start the server and open a webbrowser window on the client-side page. Normaly, once time the client is loaded and connected, the server must send a `banner` method to the client and the client will print in an alert box the `params.message`. If we open a new tab on the same page in the webbrowser, the first one will show a new alert, the `notification` one, saying that a new user is connected. If we click on a button with the `id` = `btn`, then the `callRPC('getRemoteTime')` will be reach and the server will respond with the correct time and the `success` callback will be fire. If we change the `password` to another, the server will throw an error, and it's the `error` callback which will be fired.\n\n## API\n\n### Server-Side\n\n#### client.callRPC(methodName, [params, [callback/options]])\n  Get the result of the method `methodName` from the client side.\n\n  The third argument can be the success callback or an option parameter like bellow :\n      options = {\n        timeout: 8000,\n        cleanCallbacksOnTimeout: true, //recommended\n        success: null, //fired when a result come from the client\n        error: null, //fired if the client has thrown an error, or a timeout has occured\n        finaly: null //fired either in case of success or error\n      }\n      \n#### client.listenRPC(methodName, methodToRun[, methodToRun2[, ...])\n  Listen for a callRPC coming from the client, if client call `methodName`, then methodToRun will be fired and the result will be returned to the client.\n  \n  methodToRun is called with three parameters : methodToRun(params, client, next, result)\n  * params : parameters the client has sent\n  * client : which client has sent the call (then we can use it for client.callRPC() from example)\n  * next : method which call the next methodToRun, don't forget to precede it by `return` if you want that the result be the one of the next methodToRun : `return next();`\n  * result : *NEW* very usefull new stuff, you can pass this method through others structures, `result.error(object)` return an error to the client rpc call and `result.success(object)` return a success\n  \n  In the methodToRun, you can make `throw {code:'XXX',message:'Xxx xxx'}` structure, which will be interpreted correctly by the client. The `return` will be send in response to the client.\n  \n#### client.broadcastNotifyRPC(method,params)\n  Similar to callRPC, except the fact that the callRPC will act like a notification and will be send to all other clients (except the current one : `client`).\n  Warning, no result can be attended.\n  \n#### [client.]listener.broadcastNotifyRPC(method,params, except)\n  Similar to client.broaddcastNotifyRPC, but it will send to ALL clients except those specified in the `except` parameter.\n\n#### [client.]listener.broadcastCallRPC(method,params, callback, except)\n  Similar to listener.broadcastNotifyRPC, but this time, a callback can be passed to handle each client result, in this case callback(result, client) will be called for each client\n  \n### Client-Side\n\n#### socket.callRPC(methodName, [params, [callback/options]])\n  Get the result of the method `methodName` from the server side.\n\n  The third argument can be the success callback or an option parameter like bellow :\n      options = {\n        timeout: 8000,\n        cleanCallbacksOnTimeout: true, //recommended\n        success: null, //fired when a result come from the client\n        error: null, //fired if the client has thrown an error, or a timeout has occured\n        finaly: null //fired either in case of success or error\n      }\n      \n#### socket.listenRPC(methodName, methodToRun[, methodToRun2[, ...])\n  Listen for a callRPC coming from the server, if client call `methodName`, then methodToRun will be fired and the result will be returned to the server.\n  \n  methodToRun is called with three parameters : methodToRun(params, client, next)\n  * params : parameters the server has sent\n  * next : method which call the next methodToRun, don't forget to precede it by `return` if you want that the result be the one of the next methodToRun : `return next();`\n  \n  In the methodToRun, you can make `throw {code:'XXX',message:'Xxx xxx'}` structure, which will be interpreted correctly by the server. The `return` will be send in response to the server."
+    },
+    {
+        "id": 2095838,
+        "name": "noderb-http",
+        "full_name": "noderb/noderb-http",
+        "html_url": "https://github.com/noderb/noderb-http",
+        "description": "Fast and full featured HTTP parser",
+        "updated_at": "2013-10-19T07:19:04Z",
+        "language": "C",
+        "files": [
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/noderb/noderb-http/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/noderb/noderb-http/git/blobs/1016670a4f6c3b9276d1b4488363e57974da6fd6"
+            },
+            {
+                "name": "LICENSE",
+                "path": "LICENSE",
+                "url": "https://github.com/noderb/noderb-http/blob/master/LICENSE",
+                "last_updated": "https://api.github.com/repos/noderb/noderb-http/git/blobs/527e04ccbd00612f83735fdd5bfea6c1b31c2048"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/noderb/noderb-http/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/noderb/noderb-http/git/blobs/7847b24f3626994d50fe41d85daddb00525a1a82"
+            },
+            {
+                "name": "noderb-http.gemspec",
+                "path": "noderb-http.gemspec",
+                "url": "https://github.com/noderb/noderb-http/blob/master/noderb-http.gemspec",
+                "last_updated": "https://api.github.com/repos/noderb/noderb-http/git/blobs/14d3cee8e9e6a855ede1420bc39e502308e754b1"
+            }
+        ],
+        "readme": "# NodeRb::HTTP\n\nFast and full-featured HTTP parser\n\n## Status\n\nIt could not be more prototype than it is.\n\n## Does it work?\n\nSomehow.\n\n## License\n\nMIT"
+    },
+    {
+        "id": 2565788,
+        "name": "puppet-bacula",
+        "full_name": "jonathanio/puppet-bacula",
+        "html_url": "https://github.com/jonathanio/puppet-bacula",
+        "description": "Puppet class to create backup configuration for Bacula with a single director and one or more Storage Daemons. Supports control over on which day full backups are made along with optional /home directory backups and the ability to include/exclude directories on a per-node basis.",
+        "updated_at": "2023-01-28T11:04:45Z",
+        "language": null,
+        "files": [
+            {
+                "name": "LICENCE",
+                "path": "LICENCE",
+                "url": "https://github.com/jonathanio/puppet-bacula/blob/master/LICENCE",
+                "last_updated": "https://api.github.com/repos/jonathanio/puppet-bacula/git/blobs/94a9ed024d3859793618152ea559a168bbcbb5e2"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/jonathanio/puppet-bacula/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/jonathanio/puppet-bacula/git/blobs/9d29d90278a8ad2bfb63b9c0f3b1d46ecb09c84e"
+            }
+        ],
+        "readme": "puppet-bacula\n=============\n\nby Jonathan Wright <jonathan@netwrker.co.uk>\nCopyright (c) 2011, Jonathan Wright.\n\n\nABOUT\n=====\n\nThis module is designed to be used with Puppet to configure Bacula to backup servers across a local area network. It has separate classes for configuring a Director, one or more Storage Daemons and File Daemons (Clients) along with the bconsole and bat programs (for local workstations).\n\nYou can manage multiple networks of Bacula within an operation should you require, however each Storage Daemon, File Daemon and Console/BAT can only be configured with a single Director. In theory this will probably be enough for most networks.\n\n\nLICENCE\n-------\n\npuppet-bacula is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\npuppet-bacula is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with puppet-bacula.  If not, see <http://www.gnu.org/licenses/>.\n\n\nTODO\n----\n\n * Enable support for dymanic creation of `FileSet`'s based on support for the variables `$bacula_backup_include` and `$bacula_backup_exclude` so that you can add and/or remove some directories for individual hosts.\n * This configuration is known to known to only work with Debian-based distributions. There is nothing within it allow it to work between different distributions at this time. Feel free to submit changes to allow this to function across different distributions as required.\n * This configuration will also operate using SQLite3 only. At this point its been designed to work with a simple network, as so SQLite3 will be enough for this time. Feel free to submit additions to help with MySQL and/or PostgreSQL.\n * Fill in anything in this documentation I've forgotten about...\n\n\nCONFIGURATION\n=============\n\nThere are two steps to the configuration of Bacula using this module:\n\n 1. Configure the Envionment Variables to define what will be backing up and to where, which which passwords and reporting to whom.\n 2. Configure the nodes with the required classes to act as the different parts of the network.\n\nThe environment variables are as follows:\n\n```ruby\n$bacula_server_password  = \"random_password_one_goes_here\"\n$bacula_console_password = \"random_password_two_goes_here\"\n$bacula_director_server  = \"director.bacula.local\"\n$bacula_storage_server   = \"storage.bacula.local\"\n$bacula_mail_to          = \"example@example.com\"\n```\n\nThe only one that isn't required is the last one - if not yet, the e-mails will simply be sent to 'root' by default. If you require something more useful, set it with this.\n\nOtherwise, the variables are fairly simple - set the FQDN of the Director which will manage backing up across the network, along with the FQDN of the Storage Daemon which the servers will back up to. You can have as many Storage Daemons as you require, configured as you see fit. For example, you could have the master one if the global namespace, then override servers individually, or in groups through the inherit mechinism.\n\nThe Director must also have a Storage Daemon listed as this is the default Storage Deamon for all jobs (overriden as required by each of the nodes to be backed up) and also will be the Storage Daemon to which the Catalog/Database will be backed up.\n\n```ruby\n$bacula_backup_dohome    = 'No'                          # 'Yes' or 'No'\n$bacula_backup_onday     = 'Saturday'                    # Days of the Week\n# You can also extend the include/exclude lists on a per-node or groups-of-nodes basis:\n$bacula_backup_includes  = ['/path/one', '/path/two']    # Default is Empty\n$bacula_backup_excludes  = ['/path/three', '/path/four'] # Default is Empty\n```\n\nThese variables are optional, with the defaults as shown. If you want to spread out the days on which full backups occur, or if you need to backup the /home directory on one or more boxes, or if you have specific locations you need to back up as well, then you can managed all these from these four variables.\n\nThe variables `$bacula_backup_includes` and `$bacula_backup_excludes` will, if specificed, create a dedicated `FileSet` for this host and write an override into the per-Client configuration for the Director.\n\n\nFrom there, just add the classes to the node you want backed up:\n\n```puppet\nnode basenode {\n  $bacula_server_password  = \"random_password_one_goes_here\"\n  $bacula_console_password = \"random_password_two_goes_here\"\n  $bacula_director_server  = \"director.bacula.local\"\n  $bacula_storage_server   = \"storage.bacula.local\"\n  $bacula_mail_to          = \"example@example.com\"\n}\n\nnode director inherits basenode {\n  include bacula::director, bacula::console\n}\n\nnode storage inherits basenode {\n  include bacula::storage\n}\n\nnode www1, www2, www3, www4 inherits basenode {\n  include bacula\n}\n\nnode more-storage inherits basenode {\n  include bacula::storage\n}\n\nnode www5, www6, www7, www8 inherits basenode {\n  $bacula_storage_servers = \"more-storage.bacula.local\"\n  include bacula\n}\n\nnode nfs inherits basenode {\n  $bacula_backup_dohome='Yes'\n  $bacula_backup_onday='Friday'\n  include bacula\n}\n\nnode desktop inherits basenode {\n  include bacula::bat\n}\n```\n\nOnce configured, run `puppet agent` on each of the servers to be backed up (`www[0-8]`) and this will export resources (make sure that `storeconfigs = true` is set in the 'puppet.conf' of your 'puppetmasterd') to be run and/or saves on the required servers. Then run it on your Director and Storage Daemons (order here doesn't matter). Puppet will then install a base configuration and export any of the relevent resources it can find.\n\nThis also means that any time you install a new server to be backed up, e.g. `www9`, you need to run `puppet agent` on `www9` first to set up the File Daemon, then run it on the Director and Storage Daemon to install the configuration they require for that server.\n\n\nDEFAULTS\n--------\n\n * A server will be have a full backup on Saturday, of which the first of the month will be a *Full* backup and the other Saturday's being *Differential* (only changes since the last Full or Differential Backup). All mid-week backups will be *Incremental*.\n * In the event of their being a slow- or long-running job, the Director has duplicate handling logic which will always ensure that the most imporant version of the Job (Full > Differental > Incremental) is run (killing a currently running job if required), while for jobs of the same importance, the currently running one is given priority, or if they are both queued, the newest version is kept.\n * All *Incremental* backups will be made at *20:00*, with *Full* backups starting at *18:30* (or *15:30* on Saturday or Sunday).\n * All servers will *not* have their '/home' directory backed up. The assumption is that this is mounted via NFS from a central location and therefore you will use `$bacula_backup_dohome` on the NFS server to back this up as required.\n * The default `FileSet` is as follows:\n\n```\nFileSet {\n  Name = \"Basic:noHome\"\n  Include {\n    File = /boot\n    File = /etc\n    File = /usr/local\n    File = /var\n    File = /opt\n    File = /srv\n  }\n\n  Exclude {\n    File = /var/cache\n    File = /var/tmp\n    File = /var/lib/dpkg\n    File = /var/lib/puppet\n    File = /var/lib/mysql\n    File = /var/lib/postgresql\n    File = /var/lib/ldap\n    File = /var/lib/bacula\n  }\n}\n```\n\nNOTES\n=====\n\n * I haven't created an environment variable to configure the location of the storage as it's not managed by the `bacula::storage` class, but by the `bacula` class - effectively each File Daemon creates it's own location to be added onto the Storage Daemon as part of the resource exporting. This is required so that we create individual `Device`'s for each host so that it will support concurrent streams of data. So long as we only have a single `Device` on a Storage Daemon we can only support a single stream. By fixing it in the code it keeps out issues of changes mid-installation. All Devices will created under `/mnt/bacula/${FQDN}`, so mount your backup file space as `/mnt/bacula` on all Storage Nodes.\n * Although this code is running operationally, it is still very new and it's only been running for a week or so. I will continue to monitor it over the coming weeks and months to make sure that its behaving as I would expect and make any changes required.\n * There is no requirement to have separate Director and Storage Daemon nodes. This module is perfectly happy with having both on the same box. The only restriction is that you cannot install the File Deamon (`include bacula`) on the same box that runs the Director (`include bacula::director`). The Director class installs it's own copy of the File Daemon to manage the backing up of Catalog and this will fail with the `Package['bacula-fd']` having already been defined.\n * Finally, across a Puppet network, the hostnames (for FQDN's) of the Directors, and Storage Daemons must be unique. You cannot at this time have 'director.bacula.com' and 'director.bacula.net' as they will be both processed as just 'director' in parts of the configuration. If there is a pressing need for full FQDN's across all parts of the configuration I will make the changes, but I don't see the need for it at the moment.\n\n\nHELP\n====\n\nIf you have issues with this or can think of ways to improve this, fork or raise an issue. I'm more than happy for others to help out as required. This has been created for a specific need in my office enviroment and therefore it does fit that need. If others can expand on it or improve, I welcome your input!\n"
+    },
+    {
+        "id": 7576174,
+        "name": "node-channel",
+        "full_name": "SwaySZ/node-channel",
+        "html_url": "https://github.com/SwaySZ/node-channel",
+        "description": "full channel api for node projects based on expressjs",
+        "updated_at": "2015-06-23T02:37:42Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/SwaySZ/node-channel/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/SwaySZ/node-channel/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+            },
+            {
+                "name": "index.html",
+                "path": "index.html",
+                "url": "https://github.com/SwaySZ/node-channel/blob/master/index.html",
+                "last_updated": "https://api.github.com/repos/SwaySZ/node-channel/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+            },
+            {
+                "name": "index.js",
+                "path": "index.js",
+                "url": "https://github.com/SwaySZ/node-channel/blob/master/index.js",
+                "last_updated": "https://api.github.com/repos/SwaySZ/node-channel/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+            },
+            {
+                "name": "node-channel.js",
+                "path": "node-channel.js",
+                "url": "https://github.com/SwaySZ/node-channel/blob/master/node-channel.js",
+                "last_updated": "https://api.github.com/repos/SwaySZ/node-channel/git/blobs/aa14bc9bea8919b3dc25566ef24380f8e7a1e7e3"
+            },
+            {
+                "name": "package.json",
+                "path": "package.json",
+                "url": "https://github.com/SwaySZ/node-channel/blob/master/package.json",
+                "last_updated": "https://api.github.com/repos/SwaySZ/node-channel/git/blobs/db0784c7085f3918b6ecd391e2bf3a9471e82b20"
+            },
+            {
+                "name": "server.js",
+                "path": "server.js",
+                "url": "https://github.com/SwaySZ/node-channel/blob/master/server.js",
+                "last_updated": "https://api.github.com/repos/SwaySZ/node-channel/git/blobs/dbdc5a9debcb422efee9475e19c9813d7741f8d2"
+            }
+        ],
+        "readme": ""
+    },
+    {
+        "id": 2893209,
+        "name": "couchc",
+        "full_name": "rcouch/couchc",
+        "html_url": "https://github.com/rcouch/couchc",
+        "description": "Full couchdb client to connect to a local and HTTP remote nodes.",
+        "updated_at": "2014-04-08T20:37:42Z",
+        "language": "Erlang",
+        "files": [
+            {
+                "name": ".gitignore",
+                "path": ".gitignore",
+                "url": "https://github.com/rcouch/couchc/blob/master/.gitignore",
+                "last_updated": "https://api.github.com/repos/rcouch/couchc/git/blobs/89a6f933c5d58cd4b078e8020618b071377f96c7"
+            },
+            {
+                "name": "LICENSE",
+                "path": "LICENSE",
+                "url": "https://github.com/rcouch/couchc/blob/master/LICENSE",
+                "last_updated": "https://api.github.com/repos/rcouch/couchc/git/blobs/36f199d9c638f67ab329593b5bb1394b31f1d0f7"
+            },
+            {
+                "name": "NOTICE",
+                "path": "NOTICE",
+                "url": "https://github.com/rcouch/couchc/blob/master/NOTICE",
+                "last_updated": "https://api.github.com/repos/rcouch/couchc/git/blobs/6fbe6babe3acb3fb229f88d2e0083c3a11d43499"
+            },
+            {
+                "name": "README.md",
+                "path": "README.md",
+                "url": "https://github.com/rcouch/couchc/blob/master/README.md",
+                "last_updated": "https://api.github.com/repos/rcouch/couchc/git/blobs/54e9cf2de7aedb86276acb2307b3010bf9d9a30f"
+            },
+            {
+                "name": "couchc.erl",
+                "path": "couchc.erl",
+                "url": "https://github.com/rcouch/couchc/blob/master/couchc.erl",
+                "last_updated": "https://api.github.com/repos/rcouch/couchc/git/blobs/924ede32719acc4214208bac3c301e18e392f808"
+            },
+            {
+                "name": "couchc.hrl",
+                "path": "couchc.hrl",
+                "url": "https://github.com/rcouch/couchc/blob/master/couchc.hrl",
+                "last_updated": "https://api.github.com/repos/rcouch/couchc/git/blobs/68e75ef7597611d103b119a4e032eaa3795a065a"
+            },
+            {
+                "name": "couchc_test.erl",
+                "path": "couchc_test.erl",
+                "url": "https://github.com/rcouch/couchc/blob/master/couchc_test.erl",
+                "last_updated": "https://api.github.com/repos/rcouch/couchc/git/blobs/5e5998983fe3bc468d7dd2568015c94e7467c1f7"
+            }
+        ],
+        "readme": "# couchc\n\nSimple CouchDB API internal wrapper. \n\nThis library wrap CouchDB intenal API in simple call to help you in\nbuilding CouchDB plugings.\n\nThis api is compatible with CouchDb 1.1.x and trunk (1.2.x) .\n\n## Build\n\n    $ export COUCHDB_SRC=/path/to/sources/src/couchdb\n    $ erlc -I $COUCHDB_SRC *.erl\n\nNote: Move it in couchdb beam folder if you want to use it easily.\n\n## Getting started\n\n### Create a database\n\n    Options = [{user_ctx, #user_ctx{roles=[<<\"_admin\">>]}}],\n    {ok, Db} = couchc:create_db(\"couchc_testdb\", Options).\n\n\n### Save a document\n\n    Doc = {[{<<\"_id\">>, <<\"doc1\">>}, {<<\"v\">>, 1}]},\n    {pk, DocID, DocRev} =  couchc:save_doc(Db, Doc).\n\n### Open a document\n\n    {ok, Doc1} = couchc:open_doc(Db, DocId).\n\n### Delete a document\n\n    {ok, DocID, NewDocRev} = couchc:delete_doc(Doc, {DocId, DocRev}).\n\n### Save multiple documents\n\n    Docs = [\n            {[{<<\"_id\">>, <<\"a\">>}, {<<\"v\">>, 1}, {<<\"t\">>, <<\"test\">>}]},\n            {[{<<\"_id\">>, <<\"b\">>}, {<<\"v\">>, 2}, {<<\"t\">>, <<\"test\">>}]}],\n    Results = couchc:save_docs(Db, Docs),\n\n### Get all documents\n\n    {ok, {TotalRowsCount, Offset, Results1}} = couchc:all(Db).\n\n### Views\n\n    DesignDoc = {[\n            {<<\"_id\">>, <<\"_design/test\">>},\n            {<<\"language\">>,<<\"javascript\">>},\n            {<<\"views\">>,\n                {[{<<\"v1\">>,\n                    {[{<<\"map\">>,\n                        <<\"function (doc) {\\n if (doc.t == \\\"test\\\") {\\n emit(doc._id, doc);\\n}\\n}\">>\n                    }]}\n        }]}}]},\n    \n    {ok, _, _} = couchc:save_doc(Db, DesignDoc),\n    {ok, {TotalRowsCount, Offset, Results1}} = couchc:all(Db, {<<\"test\">>, <<\"v1\">>})\n\nThis function get all documents in the view. You can use fold instead of\nall to fold documents. the all function is written like this:\n\n\n    collect_results(Row, Acc) ->\n        {ok, [Row | Acc]}.\n\n    all(Db, ViewName, Options) ->\n        fold(Db, ViewName, fun collect_results/2, Options).\n\nThat's it. More documentation is coming soon.\n\n## Test it\n\n    $ ERL_FLAGS=\"-pa /path/to/couchc\" ./util/run -i\n    \n    Eshell V5.8.4  (abort with ^G)\n    1> Apache CouchDB 1.2.0a-0cd6405-git (LogLevel=info) is starting.\n    Apache CouchDB has started. Time to relax.\n    [info] [<0.36.0>] Apache CouchDB has started on http://127.0.0.1:5984/\n\n    1> couchc_test:test().\n    [info] [<0.214.0>] checkpointing view update at seq 2 for couchc_testdb _design/test\n    [info] [<0.214.0>] checkpointing view update at seq 3 for couchc_testdb _design/test\n    [info] [<0.214.0>] checkpointing view update at seq 4 for couchc_testdb _design/test\n    [info] [<0.214.0>] Shutting down view group server, monitored db is closing.\n      All 5 tests passed.\n    ok\n    2> \n    \n\n\n"
+    },
+    {
+        "id": 1359693,
+        "name": "feedability",
+        "full_name": "4poc/feedability",
+        "html_url": "https://github.com/4poc/feedability",
+        "description": "Node.js server that uses Readability to replace excerpts in feeds with the full articles.",
+        "updated_at": "2023-03-26T16:54:07Z",
+        "language": "JavaScript",
+        "files": [
+            {
+                "name": "LICENSE",
+                "path": "LICENSE",
+                "url": "https://github.com/4poc/feedability/blob/master/LICENSE",
+                "last_updated": "https://api.github.com/repos/4poc/feedability/git/blobs/94a9ed024d3859793618152ea559a168bbcbb5e2"
+            },
+            {
+                "name": "README.textile",
+                "path": "README.textile",
+                "url": "https://github.com/4poc/feedability/blob/master/README.textile",
+                "last_updated": "https://api.github.com/repos/4poc/feedability/git/blobs/cc7e5ff2606a5818666182c7d12db017e6c12f13"
+            },
+            {
+                "name": "TODO",
+                "path": "TODO",
+                "url": "https://github.com/4poc/feedability/blob/master/TODO",
+                "last_updated": "https://api.github.com/repos/4poc/feedability/git/blobs/2ff4d833ebb93e9385f6e07cc0dc9f4f08f158d0"
+            },
+            {
+                "name": "feedability.js",
+                "path": "feedability.js",
+                "url": "https://github.com/4poc/feedability/blob/master/feedability.js",
+                "last_updated": "https://api.github.com/repos/4poc/feedability/git/blobs/e49c263efcafa10dbe698659c186e5828bcafc22"
+            },
+            {
+                "name": "settings.json",
+                "path": "settings.json",
+                "url": "https://github.com/4poc/feedability/blob/master/settings.json",
+                "last_updated": "https://api.github.com/repos/4poc/feedability/git/blobs/39f5d68465454f48ad2de3549182c237e73f4e9c"
+            }
+        ],
+        "readme": null
+    }
+]
